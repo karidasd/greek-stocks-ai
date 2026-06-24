@@ -1,14 +1,41 @@
 let currentData = null;
+let currentMarket = 'gr';
 
 document.addEventListener('DOMContentLoaded', () => {
     fetchData();
     setupFilters();
+    setupMarketSwitcher();
 });
+
+function setupMarketSwitcher() {
+    const tabs = document.querySelectorAll('.market-tab');
+    tabs.forEach(tab => {
+        tab.addEventListener('click', (e) => {
+            tabs.forEach(t => t.classList.remove('active'));
+            e.target.classList.add('active');
+            currentMarket = e.target.getAttribute('data-market');
+            
+            const titleElem = document.getElementById('market-assets-title');
+            if(titleElem) {
+                if(currentMarket === 'gr') titleElem.textContent = 'Όλες οι Μετοχές (ATHEX)';
+                else if(currentMarket === 'us') titleElem.textContent = 'Όλες οι Μετοχές (US Tech)';
+                else if(currentMarket === 'crypto') titleElem.textContent = 'Όλα τα Cryptos';
+            }
+            
+            const grid = document.getElementById('stocks-grid');
+            grid.style.opacity = '0.5';
+            
+            fetchData().then(() => {
+                grid.style.opacity = '1';
+            });
+        });
+    });
+}
 
 async function fetchData() {
     try {
         const timestamp = new Date().getTime();
-        const response = await fetch(`data/stocks.json?t=${timestamp}`);
+        const response = await fetch(`data/${currentMarket}.json?t=${timestamp}`);
         if (!response.ok) throw new Error('Data file not found');
         
         currentData = await response.json();
@@ -165,10 +192,10 @@ function renderSOTD(data) {
     
     const html = `
         <div class="sotd-main">
-            <span class="sotd-ticker">${stock.ticker.replace('.AT', '')}</span>
+            <span class="sotd-ticker">${stock.ticker.replace('.AT', '').replace('-USD', '')}</span>
             <span class="sotd-name">${stock.name}</span>
             <div class="sotd-price-container">
-                <span class="sotd-price">€${stock.price.toFixed(3)}</span>
+                <span class="sotd-price">${currentMarket === 'crypto' ? '$' : (currentMarket === 'us' ? '$' : '€')}${stock.price}</span>
                 <span class="sotd-change ${changeClass}" style="background: ${isUp ? 'rgba(16,185,129,0.1)' : 'rgba(239,68,68,0.1)'}">
                     ${changeSign}${stock.change_pct}%
                 </span>
@@ -230,10 +257,10 @@ function renderStocksGrid(stocks) {
             <div class="stock-header">
                 <div class="stock-info">
                     <h3>${stock.name}</h3>
-                    <span>${stock.ticker.replace('.AT', '')}</span>
+                    <span>${stock.ticker.replace('.AT', '').replace('-USD', '')}</span>
                 </div>
                 <div class="stock-price-info">
-                    <span class="price">€${stock.price.toFixed(3)}</span>
+                    <span class="price">${currentMarket === 'crypto' ? '$' : (currentMarket === 'us' ? '$' : '€')}${stock.price}</span>
                     <span class="change ${changeClass}">${changeSign}${stock.change_pct}%</span>
                 </div>
             </div>
