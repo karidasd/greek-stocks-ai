@@ -61,6 +61,14 @@ def analyze_sentiment(company_name):
     else:
         return "Neutral", avg_score
 
+def fetch_market_news():
+    url = "https://news.google.com/rss/search?q=Χρηματιστήριο+Αθηνών+OR+Οικονομία+Ελλάδα&hl=el&gl=GR&ceid=GR:el"
+    feed = feedparser.parse(url)
+    news = []
+    for entry in feed.entries[:5]:
+        news.append({"title": entry.title, "link": entry.link})
+    return news
+
 def fetch_stock_data(stock):
     print(f"Fetching data for {stock['ticker']}...")
     ticker = yf.Ticker(stock['ticker'])
@@ -146,6 +154,20 @@ def fetch_stock_data(stock):
         div_yield = round(div_yield * 100, 2) if div_yield else 0
     except:
         div_yield = 0
+        
+    try:
+        ex_div = info.get('exDividendDate')
+        if ex_div:
+            div_date = datetime.fromtimestamp(ex_div)
+            days_to_div = (div_date - datetime.now()).days
+            if 0 <= days_to_div <= 30:
+                upcoming_event = f"Αποκοπή Μερίσματος σε {days_to_div} μέρες"
+            else:
+                upcoming_event = None
+        else:
+            upcoming_event = None
+    except:
+        upcoming_event = None
 
     return {
         "ticker": stock['ticker'],
@@ -160,7 +182,8 @@ def fetch_stock_data(stock):
         "volume_breakout": volume_breakout,
         "pattern": pattern,
         "pe_ratio": pe_ratio,
-        "dividend_yield": div_yield
+        "dividend_yield": div_yield,
+        "upcoming_event": upcoming_event
     }
 
 def main():
@@ -197,6 +220,39 @@ def main():
             best_score = score
             sotd = r
 
+    # SOTD History tracking
+    history_file = os.path.join(data_dir, 'history.json')
+    history_data = []
+    if os.path.exists(history_file):
+        with open(history_file, 'r', encoding='utf-8') as f:
+            history_data = json.load(f)
+            
+    # Calculate SOTD Win Rate
+    wins = 0
+    total_valid = 0
+    for h in history_data:
+        curr_price = next((r['price'] for r in results if r['ticker'] == h['ticker']), None)
+        if curr_price:
+            total_valid += 1
+            if curr_price > h['price_at_pick']:
+                wins += 1
+                
+    win_rate = round((wins / total_valid) * 100, 1) if total_valid > 0 else 0
+    
+    # Add today's SOTD
+    if sotd:
+        today_str = datetime.now().strftime('%Y-%m-%d')
+        if not history_data or history_data[-1]['date'] != today_str:
+            history_data.append({
+                "date": today_str,
+                "ticker": sotd['ticker'],
+                "price_at_pick": sotd['price']
+            })
+            if len(history_data) > 30:
+                history_data = history_data[-30:]
+            with open(history_file, 'w', encoding='utf-8') as f:
+                json.dump(history_data, f, indent=4)
+
     # Calculate Fear & Greed Index
     if results:
         avg_rsi = sum(r['rsi'] for r in results) / len(results)
@@ -213,9 +269,19 @@ def main():
     else:
         fear_greed = {"score": 50, "status": "Neutral"}
 
+    market_news = fetch_market_news()
+
     output_file = os.path.join(data_dir, 'stocks.json')
     with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump({"date": datetime.now().strftime('%Y-%m-%d %H:%M'), "stocks": results, "sotd": sotd['ticker'] if sotd else None, "fear_greed": fear_greed}, f, indent=4, ensure_ascii=False)
+        json_data = {
+            "date": datetime.now().strftime('%Y-%m-%d %H:%M'), 
+            "stocks": results, 
+            "sotd": sotd['ticker'] if sotd else None, 
+            "fear_greed": fear_greed,
+            "market_news": market_news,
+            "sotd_win_rate": {"rate": win_rate, "total": total_valid}
+        }
+        json.dump(json_data, f, indent=4, ensure_ascii=False)
         
     print(f"Saved {len(results)} stocks.")
 

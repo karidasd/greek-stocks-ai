@@ -30,6 +30,22 @@ async function fetchData() {
     }
 }
 
+function renderNews(newsArray) {
+    const marquee = document.getElementById('news-marquee');
+    if (!marquee || !newsArray || newsArray.length === 0) return;
+    
+    let html = '<div class="news-content">';
+    newsArray.forEach(n => {
+        html += `<a href="${n.link}" target="_blank">📰 ${n.title}</a>`;
+    });
+    // Duplicate for smooth infinite scroll
+    newsArray.forEach(n => {
+        html += `<a href="${n.link}" target="_blank">📰 ${n.title}</a>`;
+    });
+    html += '</div>';
+    marquee.innerHTML = html;
+}
+
 function renderFearGreed(fg) {
     if (!fg) return;
     document.getElementById('fear-greed-section').style.display = 'block';
@@ -174,13 +190,14 @@ function renderSOTD(data) {
         <div class="sotd-badges">
             ${stock.volume_breakout ? '<span class="badge volume">🔥 High Volume</span>' : ''}
             <div class="stat-box" style="align-items: flex-end;">
-                <span class="stat-label">AI Tech Signal (RSI: ${stock.rsi})</span>
-                <span class="${getBadgeClass(stock.tech_tip)}">${stock.tech_tip}</span>
+                <span class="stat-label">AI Signal</span>
+                <span class="stat-value" style="color: var(--accent);">${stock.tech_tip}</span>
             </div>
-            <div class="stat-box" style="align-items: flex-end;">
-                <span class="stat-label">News Sentiment Score: ${stock.sentiment_score}</span>
-                <span class="${getSentimentBadgeClass(stock.sentiment)}">${stock.sentiment}</span>
-            </div>
+            ${data.sotd_win_rate ? `
+            <div class="stat-box" style="align-items: flex-end; margin-left: 10px;">
+                <span class="stat-label">AI Win Rate</span>
+                <span class="stat-value" style="color: var(--success);">${data.sotd_win_rate.rate}% <span style="font-size:0.6rem;color:var(--text-secondary)">(${data.sotd_win_rate.total}d)</span></span>
+            </div>` : ''}
         </div>
     `;
     
@@ -246,6 +263,7 @@ function renderStocksGrid(stocks) {
                     <span class="${getSentimentBadgeClass(stock.sentiment)}">${stock.sentiment}</span>
                 </div>
             </div>
+            ${stock.upcoming_event ? `<div class="event-badge">🔔 ${stock.upcoming_event}</div>` : ''}
         `;
         
         grid.appendChild(card);
