@@ -24,6 +24,24 @@
     </header>
 
     <main class="container">
+        <!-- Fear & Greed Index Section -->
+        <section class="fear-greed-section" id="fear-greed-section" style="display: none;">
+            <div class="fg-container">
+                <div class="fg-info">
+                    <h2>Market Status</h2>
+                    <p>ATHEX Fear & Greed Index</p>
+                </div>
+                <div class="fg-gauge">
+                    <div class="fg-bar" id="fg-bar"></div>
+                    <div class="fg-marker" id="fg-marker"></div>
+                </div>
+                <div class="fg-status">
+                    <span id="fg-score" class="fg-score">50</span>
+                    <span id="fg-label" class="fg-label badge">Neutral</span>
+                </div>
+            </div>
+        </section>
+
         <!-- Stock of the Day Section -->
         <section class="sotd-section" id="sotd-container" style="display: none;">
             <div class="section-title">
@@ -37,8 +55,16 @@
 
         <!-- All Stocks Section -->
         <section class="all-stocks-section">
-            <div class="section-title">
-                <h2>Όλες οι Μετοχές (FTSE 25)</h2>
+            <div class="section-title" style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 15px;">
+                <div>
+                    <h2>Όλες οι Μετοχές (FTSE)</h2>
+                </div>
+                <div class="filters">
+                    <button class="filter-btn active" data-sort="default">A-Z</button>
+                    <button class="filter-btn" data-sort="gainers">Top Gainers</button>
+                    <button class="filter-btn" data-sort="losers">Top Losers</button>
+                    <button class="filter-btn" data-sort="ai">AI Favorites</button>
+                </div>
             </div>
             <div class="stocks-grid" id="stocks-grid">
                 <!-- Stock cards will be injected here -->

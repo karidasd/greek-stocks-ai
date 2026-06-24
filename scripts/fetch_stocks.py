@@ -103,6 +103,14 @@ def fetch_stock_data(stock):
     else:
         tech_tip = "HOLD"
 
+    # Get last 7 days for sparkline
+    sparkline = [float(p) for p in df['Close'].tail(7).values]
+    
+    # Calculate Volume Breakout
+    avg_volume = df['Volume'].rolling(window=20).mean().iloc[-1]
+    today_volume = df['Volume'].iloc[-1]
+    volume_breakout = bool(today_volume > (avg_volume * 1.5)) if avg_volume > 0 else False
+
     # Fetch Sentiment
     sentiment_badge, sentiment_score = analyze_sentiment(stock['name'])
 
@@ -114,7 +122,9 @@ def fetch_stock_data(stock):
         "rsi": round(rsi, 1),
         "tech_tip": tech_tip,
         "sentiment": sentiment_badge,
-        "sentiment_score": round(sentiment_score, 2)
+        "sentiment_score": round(sentiment_score, 2),
+        "sparkline": sparkline,
+        "volume_breakout": volume_breakout
     }
 
 def main():
@@ -143,9 +153,25 @@ def main():
             best_score = score
             sotd = r
 
+    # Calculate Fear & Greed Index
+    if results:
+        avg_rsi = sum(r['rsi'] for r in results) / len(results)
+        avg_sent = sum(r['sentiment_score'] for r in results) / len(results)
+        # Convert to 0-100 scale. RSI is already 0-100. Sentiment is -1 to 1.
+        sent_100 = ((avg_sent + 1) / 2) * 100
+        fear_greed_score = round((avg_rsi * 0.5) + (sent_100 * 0.5))
+        if fear_greed_score > 65: fg_status = "Extreme Greed"
+        elif fear_greed_score > 55: fg_status = "Greed"
+        elif fear_greed_score < 35: fg_status = "Extreme Fear"
+        elif fear_greed_score < 45: fg_status = "Fear"
+        else: fg_status = "Neutral"
+        fear_greed = {"score": fear_greed_score, "status": fg_status}
+    else:
+        fear_greed = {"score": 50, "status": "Neutral"}
+
     output_file = os.path.join(data_dir, 'stocks.json')
     with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump({"date": datetime.now().strftime('%Y-%m-%d %H:%M'), "stocks": results, "sotd": sotd['ticker'] if sotd else None}, f, indent=4, ensure_ascii=False)
+        json.dump({"date": datetime.now().strftime('%Y-%m-%d %H:%M'), "stocks": results, "sotd": sotd['ticker'] if sotd else None, "fear_greed": fear_greed}, f, indent=4, ensure_ascii=False)
         
     print(f"Saved {len(results)} stocks.")
 

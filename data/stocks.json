@@ -1,5 +1,5 @@
 {
-    "date": "2026-06-24 09:26",
+    "date": "2026-06-24 09:41",
     "stocks": [
         {
             "ticker": "PPC.AT",
@@ -9,7 +9,17 @@
             "rsi": 80.1,
             "tech_tip": "SELL",
             "sentiment": "Neutral",
-            "sentiment_score": 0.1
+            "sentiment_score": 0.1,
+            "sparkline": [
+                22.899999618530273,
+                22.959999084472656,
+                23.34000015258789,
+                22.8799991607666,
+                22.920000076293945,
+                23.1200008392334,
+                23.0
+            ],
+            "volume_breakout": false
         },
         {
             "ticker": "HTO.AT",
@@ -19,7 +29,17 @@
             "rsi": 66.1,
             "tech_tip": "SELL",
             "sentiment": "Neutral",
-            "sentiment_score": -0.13
+            "sentiment_score": -0.13,
+            "sparkline": [
+                19.290000915527344,
+                19.350000381469727,
+                19.030000686645508,
+                19.09000015258789,
+                19.260000228881836,
+                18.93000030517578,
+                18.90999984741211
+            ],
+            "volume_breakout": false
         },
         {
             "ticker": "ETE.AT",
@@ -29,7 +49,17 @@
             "rsi": 70.4,
             "tech_tip": "SELL",
             "sentiment": "Neutral",
-            "sentiment_score": -0.1
+            "sentiment_score": -0.1,
+            "sparkline": [
+                15.300000190734863,
+                15.4350004196167,
+                15.5,
+                15.414999961853027,
+                15.505000114440918,
+                15.699999809265137,
+                15.5
+            ],
+            "volume_breakout": false
         },
         {
             "ticker": "EUROB.AT",
@@ -39,7 +69,17 @@
             "rsi": 67.8,
             "tech_tip": "SELL",
             "sentiment": "Bearish",
-            "sentiment_score": -0.18
+            "sentiment_score": -0.18,
+            "sparkline": [
+                4.192999839782715,
+                4.28000020980835,
+                4.400000095367432,
+                4.290999889373779,
+                4.238999843597412,
+                4.329999923706055,
+                4.224999904632568
+            ],
+            "volume_breakout": false
         },
         {
             "ticker": "ALPHA.AT",
@@ -49,7 +89,17 @@
             "rsi": 60.8,
             "tech_tip": "HOLD",
             "sentiment": "Neutral",
-            "sentiment_score": -0.07
+            "sentiment_score": -0.07,
+            "sparkline": [
+                4.195000171661377,
+                4.239999771118164,
+                4.211999893188477,
+                4.119999885559082,
+                4.105999946594238,
+                4.1519999504089355,
+                4.039999961853027
+            ],
+            "volume_breakout": false
         },
         {
             "ticker": "TPEIR.AT",
@@ -59,7 +109,17 @@
             "rsi": 56.3,
             "tech_tip": "HOLD",
             "sentiment": "Neutral",
-            "sentiment_score": 0.0
+            "sentiment_score": 0.0,
+            "sparkline": [
+                9.342000007629395,
+                9.446000099182129,
+                9.380000114440918,
+                9.380000114440918,
+                9.350000381469727,
+                9.470000267028809,
+                9.21399974822998
+            ],
+            "volume_breakout": false
         },
         {
             "ticker": "MOH.AT",
@@ -69,7 +129,17 @@
             "rsi": 44.0,
             "tech_tip": "HOLD",
             "sentiment": "Bearish",
-            "sentiment_score": -0.3
+            "sentiment_score": -0.25,
+            "sparkline": [
+                38.380001068115234,
+                38.52000045776367,
+                37.900001525878906,
+                37.5,
+                38.0,
+                38.79999923706055,
+                38.79999923706055
+            ],
+            "volume_breakout": false
         },
         {
             "ticker": "ELPE.AT",
@@ -79,7 +149,17 @@
             "rsi": 51.3,
             "tech_tip": "HOLD",
             "sentiment": "Bullish",
-            "sentiment_score": 0.33
+            "sentiment_score": 0.33,
+            "sparkline": [
+                10.170000076293945,
+                10.390000343322754,
+                10.930000305175781,
+                10.970000267028809,
+                10.739999771118164,
+                10.970000267028809,
+                10.600000381469727
+            ],
+            "volume_breakout": false
         },
         {
             "ticker": "GEKTERNA.AT",
@@ -89,7 +169,17 @@
             "rsi": 82.2,
             "tech_tip": "SELL",
             "sentiment": "Neutral",
-            "sentiment_score": 0.0
+            "sentiment_score": 0.0,
+            "sparkline": [
+                44.779998779296875,
+                44.599998474121094,
+                46.060001373291016,
+                45.70000076293945,
+                45.58000183105469,
+                46.5,
+                46.0
+            ],
+            "volume_breakout": false
         },
         {
             "ticker": "TITC.AT",
@@ -99,7 +189,17 @@
             "rsi": 59.9,
             "tech_tip": "HOLD",
             "sentiment": "Bullish",
-            "sentiment_score": 0.46
+            "sentiment_score": 0.46,
+            "sparkline": [
+                54.150001525878906,
+                53.400001525878906,
+                53.900001525878906,
+                54.0,
+                53.20000076293945,
+                53.75,
+                52.54999923706055
+            ],
+            "volume_breakout": false
         },
         {
             "ticker": "CENER.AT",
@@ -109,7 +209,17 @@
             "rsi": 46.9,
             "tech_tip": "HOLD",
             "sentiment": "Bullish",
-            "sentiment_score": 0.18
+            "sentiment_score": 0.18,
+            "sparkline": [
+                24.19041633605957,
+                24.289396286010742,
+                23.576745986938477,
+                24.36857795715332,
+                25.19999885559082,
+                26.200000762939453,
+                24.15999984741211
+            ],
+            "volume_breakout": true
         },
         {
             "ticker": "VIO.AT",
@@ -119,8 +229,22 @@
             "rsi": 53.6,
             "tech_tip": "HOLD",
             "sentiment": "Neutral",
-            "sentiment_score": 0.06
+            "sentiment_score": 0.06,
+            "sparkline": [
+                19.65999984741211,
+                19.219999313354492,
+                19.399999618530273,
+                19.200000762939453,
+                20.950000762939453,
+                21.850000381469727,
+                21.350000381469727
+            ],
+            "volume_breakout": true
         }
     ],
-    "sotd": "ELPE.AT"
+    "sotd": "ELPE.AT",
+    "fear_greed": {
+        "score": 57,
+        "status": "Greed"
+    }
 }
