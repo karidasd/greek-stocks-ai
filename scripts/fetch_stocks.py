@@ -107,7 +107,7 @@ def fetch_stock_data(stock):
     sparkline = [float(p) for p in df['Close'].tail(7).values]
     
     # Calculate Volume Breakout
-    avg_volume = df['Volume'].rolling(window=20).mean().iloc[-1]
+    avg_volume = df['Volume'].rolling(window=20, min_periods=1).mean().iloc[-1]
     today_volume = df['Volume'].iloc[-1]
     volume_breakout = bool(today_volume > (avg_volume * 1.5)) if avg_volume > 0 else False
 

@@ -77,7 +77,7 @@ function setupFilters() {
             } else if (sortType === 'losers') {
                 sortedStocks.sort((a, b) => a.change_pct - b.change_pct);
             } else if (sortType === 'ai') {
-                const score = s => (s.tech_tip.includes('BUY') ? 2 : (s.tech_tip.includes('SELL') ? -2 : 0)) + (s.sentiment.includes('Bullish') ? 1 : 0);
+                const score = s => (s.tech_tip.includes('BUY') ? 2 : (s.tech_tip.includes('SELL') ? -2 : 0)) + (s.sentiment.includes('Bullish') ? 1 : (s.sentiment.includes('Bearish') ? -1 : 0));
                 sortedStocks.sort((a, b) => score(b) - score(a));
             } else {
                 sortedStocks.sort((a, b) => a.name.localeCompare(b.name));
@@ -105,7 +105,7 @@ function getSentimentBadgeClass(sent) {
 }
 
 function generateSparkline(prices, isUp) {
-    if (!prices || prices.length === 0) return '';
+    if (!prices || prices.length < 2) return '';
     
     const min = Math.min(...prices);
     const max = Math.max(...prices);
