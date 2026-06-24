@@ -1,0 +1,5 @@
+yfinance
+vaderSentiment
+deep-translator
+feedparser
+pandas
