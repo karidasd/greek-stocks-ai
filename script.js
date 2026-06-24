@@ -104,6 +104,12 @@ function getSentimentBadgeClass(sent) {
     return 'badge neutral';
 }
 
+function getPatternBadge(pattern) {
+    if (pattern === 'Golden Cross') return '<span class="badge pattern">🌟 Golden Cross</span>';
+    if (pattern === 'Death Cross') return '<span class="badge pattern death">💀 Death Cross</span>';
+    return '';
+}
+
 function generateSparkline(prices, isUp) {
     if (!prices || prices.length < 2) return '';
     
@@ -155,6 +161,16 @@ function renderSOTD(data) {
                 ${sparklineHTML}
             </div>
         </div>
+        <div class="fundamentals">
+            <div class="fund-box">
+                <span class="fund-label">P/E Ratio</span>
+                <span class="fund-value">${stock.pe_ratio}</span>
+            </div>
+            <div class="fund-box" style="align-items: flex-end;">
+                <span class="fund-label">Dividend Yield</span>
+                <span class="fund-value ${stock.dividend_yield > 0 ? 'badge gold' : ''}" style="padding: 2px 6px;">${stock.dividend_yield > 0 ? stock.dividend_yield + '%' : '-'}</span>
+            </div>
+        </div>
         <div class="sotd-badges">
             ${stock.volume_breakout ? '<span class="badge volume">🔥 High Volume</span>' : ''}
             <div class="stat-box" style="align-items: flex-end;">
@@ -189,8 +205,10 @@ function renderStocksGrid(stocks) {
         }
         
         const sparklineHTML = generateSparkline(stock.sparkline, isUp);
+        const patternBadge = getPatternBadge(stock.pattern);
         
         card.innerHTML = `
+            ${patternBadge}
             ${stock.volume_breakout ? '<span class="badge volume">🔥 High Volume</span>' : ''}
             <div class="stock-header">
                 <div class="stock-info">
@@ -205,6 +223,17 @@ function renderStocksGrid(stocks) {
             
             <div class="sparkline-container">
                 ${sparklineHTML}
+            </div>
+            
+            <div class="fundamentals">
+                <div class="fund-box">
+                    <span class="fund-label">P/E Ratio</span>
+                    <span class="fund-value">${stock.pe_ratio}</span>
+                </div>
+                <div class="fund-box" style="align-items: flex-end;">
+                    <span class="fund-label">Dividend</span>
+                    <span class="fund-value ${stock.dividend_yield > 0 ? 'badge gold' : ''}" style="padding: 2px 6px;">${stock.dividend_yield > 0 ? stock.dividend_yield + '%' : '-'}</span>
+                </div>
             </div>
             
             <div class="stock-stats">

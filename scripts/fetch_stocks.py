@@ -65,8 +65,8 @@ def fetch_stock_data(stock):
     print(f"Fetching data for {stock['ticker']}...")
     ticker = yf.Ticker(stock['ticker'])
     
-    # Get last 60 days to calculate technicals
-    df = ticker.history(period="60d")
+    # Get last 1 year to calculate long-term technicals (SMA-200)
+    df = ticker.history(period="1y")
     if df.empty or len(df) < 20:
         print(f"No data for {stock['ticker']}")
         return None
@@ -77,6 +77,25 @@ def fetch_stock_data(stock):
     
     # Technical Indicators manually using pandas
     sma20 = df['Close'].rolling(window=20).mean().iloc[-1]
+    
+    # Calculate SMA-50 and SMA-200 for Pattern Recognition
+    sma50 = df['Close'].rolling(window=50, min_periods=1).mean()
+    sma200 = df['Close'].rolling(window=200, min_periods=1).mean()
+    
+    current_sma50 = float(sma50.iloc[-1])
+    current_sma200 = float(sma200.iloc[-1])
+    prev_sma50 = float(sma50.iloc[-2]) if len(sma50) > 1 else current_sma50
+    prev_sma200 = float(sma200.iloc[-2]) if len(sma200) > 1 else current_sma200
+    
+    pattern = "Neutral"
+    if current_sma50 > current_sma200 and prev_sma50 <= prev_sma200:
+        pattern = "Golden Cross"
+    elif current_sma50 < current_sma200 and prev_sma50 >= prev_sma200:
+        pattern = "Death Cross"
+    elif current_sma50 > current_sma200:
+        pattern = "Bullish Trend"
+    elif current_sma50 < current_sma200:
+        pattern = "Bearish Trend"
     
     # Calculate RSI
     delta = df['Close'].diff()
@@ -114,6 +133,20 @@ def fetch_stock_data(stock):
     # Fetch Sentiment
     sentiment_badge, sentiment_score = analyze_sentiment(stock['name'])
 
+    # Fetch Fundamentals
+    info = ticker.info
+    try:
+        pe_ratio = info.get('trailingPE') or info.get('forwardPE') or 0
+        pe_ratio = round(pe_ratio, 2) if pe_ratio else "N/A"
+    except:
+        pe_ratio = "N/A"
+        
+    try:
+        div_yield = info.get('dividendYield') or 0
+        div_yield = round(div_yield * 100, 2) if div_yield else 0
+    except:
+        div_yield = 0
+
     return {
         "ticker": stock['ticker'],
         "name": stock['name'],
@@ -124,7 +157,10 @@ def fetch_stock_data(stock):
         "sentiment": sentiment_badge,
         "sentiment_score": round(sentiment_score, 2),
         "sparkline": sparkline,
-        "volume_breakout": volume_breakout
+        "volume_breakout": volume_breakout,
+        "pattern": pattern,
+        "pe_ratio": pe_ratio,
+        "dividend_yield": div_yield
     }
 
 def main():
@@ -149,6 +185,14 @@ def main():
         score = (50 - r['rsi']) + (r['sentiment_score'] * 50) 
         if r['tech_tip'] in ["BUY", "STRONG BUY"] and r['sentiment'] == "Bullish":
             score += 20
+            
+        # V3 additions
+        if r['pattern'] == "Golden Cross": score += 30
+        elif r['pattern'] == "Bullish Trend": score += 10
+        elif r['pattern'] == "Death Cross": score -= 30
+        
+        if r['pe_ratio'] != "N/A" and r['pe_ratio'] < 15 and r['pe_ratio'] > 0: score += 10
+        if r['dividend_yield'] > 3.0: score += 10
         if score > best_score:
             best_score = score
             sotd = r

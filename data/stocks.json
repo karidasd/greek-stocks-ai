@@ -1,5 +1,5 @@
 {
-    "date": "2026-06-24 09:41",
+    "date": "2026-06-24 09:53",
     "stocks": [
         {
             "ticker": "PPC.AT",
@@ -19,7 +19,10 @@
                 23.1200008392334,
                 23.0
             ],
-            "volume_breakout": false
+            "volume_breakout": false,
+            "pattern": "Bullish Trend",
+            "pe_ratio": 27.06,
+            "dividend_yield": 261.0
         },
         {
             "ticker": "HTO.AT",
@@ -39,7 +42,10 @@
                 18.93000030517578,
                 18.90999984741211
             ],
-            "volume_breakout": false
+            "volume_breakout": false,
+            "pattern": "Bullish Trend",
+            "pe_ratio": 10.51,
+            "dividend_yield": 392.0
         },
         {
             "ticker": "ETE.AT",
@@ -49,7 +55,7 @@
             "rsi": 70.4,
             "tech_tip": "SELL",
             "sentiment": "Neutral",
-            "sentiment_score": -0.1,
+            "sentiment_score": 0.08,
             "sparkline": [
                 15.300000190734863,
                 15.4350004196167,
@@ -59,7 +65,10 @@
                 15.699999809265137,
                 15.5
             ],
-            "volume_breakout": false
+            "volume_breakout": false,
+            "pattern": "Bullish Trend",
+            "pe_ratio": 12.4,
+            "dividend_yield": 332.0
         },
         {
             "ticker": "EUROB.AT",
@@ -79,7 +88,10 @@
                 4.329999923706055,
                 4.224999904632568
             ],
-            "volume_breakout": false
+            "volume_breakout": false,
+            "pattern": "Bullish Trend",
+            "pe_ratio": 11.42,
+            "dividend_yield": 281.0
         },
         {
             "ticker": "ALPHA.AT",
@@ -99,7 +111,10 @@
                 4.1519999504089355,
                 4.039999961853027
             ],
-            "volume_breakout": false
+            "volume_breakout": false,
+            "pattern": "Bullish Trend",
+            "pe_ratio": 10.92,
+            "dividend_yield": 120.0
         },
         {
             "ticker": "TPEIR.AT",
@@ -119,7 +134,10 @@
                 9.470000267028809,
                 9.21399974822998
             ],
-            "volume_breakout": false
+            "volume_breakout": false,
+            "pattern": "Bullish Trend",
+            "pe_ratio": 10.71,
+            "dividend_yield": 434.0
         },
         {
             "ticker": "MOH.AT",
@@ -139,7 +157,10 @@
                 38.79999923706055,
                 38.79999923706055
             ],
-            "volume_breakout": false
+            "volume_breakout": false,
+            "pattern": "Bullish Trend",
+            "pe_ratio": 4.7,
+            "dividend_yield": 460.0
         },
         {
             "ticker": "ELPE.AT",
@@ -159,7 +180,10 @@
                 10.970000267028809,
                 10.600000381469727
             ],
-            "volume_breakout": false
+            "volume_breakout": false,
+            "pattern": "Bullish Trend",
+            "pe_ratio": 7.21,
+            "dividend_yield": 425.0
         },
         {
             "ticker": "GEKTERNA.AT",
@@ -179,7 +203,10 @@
                 46.5,
                 46.0
             ],
-            "volume_breakout": false
+            "volume_breakout": false,
+            "pattern": "Bullish Trend",
+            "pe_ratio": 33.09,
+            "dividend_yield": 87.0
         },
         {
             "ticker": "TITC.AT",
@@ -199,7 +226,10 @@
                 53.75,
                 52.54999923706055
             ],
-            "volume_breakout": false
+            "volume_breakout": false,
+            "pattern": "Bullish Trend",
+            "pe_ratio": 16.63,
+            "dividend_yield": 209.0
         },
         {
             "ticker": "CENER.AT",
@@ -219,7 +249,10 @@
                 26.200000762939453,
                 24.15999984741211
             ],
-            "volume_breakout": true
+            "volume_breakout": true,
+            "pattern": "Bullish Trend",
+            "pe_ratio": 26.55,
+            "dividend_yield": 108.0
         },
         {
             "ticker": "VIO.AT",
@@ -239,7 +272,10 @@
                 21.850000381469727,
                 21.350000381469727
             ],
-            "volume_breakout": true
+            "volume_breakout": true,
+            "pattern": "Bullish Trend",
+            "pe_ratio": 23.46,
+            "dividend_yield": 126.0
         }
     ],
     "sotd": "ELPE.AT",
