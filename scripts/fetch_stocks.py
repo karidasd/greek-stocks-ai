@@ -68,7 +68,7 @@ MARKETS = {
             {"ticker": "DOGE-USD", "name": "Dogecoin"},
             {"ticker": "LINK-USD", "name": "Chainlink"},
             {"ticker": "DOT-USD", "name": "Polkadot"},
-            {"ticker": "MATIC-USD", "name": "Polygon"},
+            {"ticker": "POL-USD", "name": "Polygon"},
             {"ticker": "LTC-USD", "name": "Litecoin"},
             {"ticker": "NEAR-USD", "name": "NEAR"},
             {"ticker": "FET-USD", "name": "Fetch.ai"}
