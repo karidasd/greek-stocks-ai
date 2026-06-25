@@ -3,5 +3,10 @@
         "date": "2026-06-24",
         "ticker": "ELPE.AT",
         "price_at_pick": 10.76
+    },
+    {
+        "date": "2026-06-25",
+        "ticker": "ELPE.AT",
+        "price_at_pick": 10.53
     }
 ]
