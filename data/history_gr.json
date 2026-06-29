@@ -13,5 +13,10 @@
         "date": "2026-06-26",
         "ticker": "ALPHA.AT",
         "price_at_pick": 3.9
+    },
+    {
+        "date": "2026-06-29",
+        "ticker": "ALPHA.AT",
+        "price_at_pick": 3.963
     }
 ]

@@ -13,5 +13,10 @@
         "date": "2026-06-26",
         "ticker": "MSFT",
         "price_at_pick": 371.2
+    },
+    {
+        "date": "2026-06-29",
+        "ticker": "SMCI",
+        "price_at_pick": 28.72
     }
 ]
