@@ -18,5 +18,10 @@
         "date": "2026-06-29",
         "ticker": "ALPHA.AT",
         "price_at_pick": 3.963
+    },
+    {
+        "date": "2026-06-30",
+        "ticker": "MOH.AT",
+        "price_at_pick": 38.38
     }
 ]

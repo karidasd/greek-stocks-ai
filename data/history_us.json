@@ -18,5 +18,10 @@
         "date": "2026-06-29",
         "ticker": "SMCI",
         "price_at_pick": 28.72
+    },
+    {
+        "date": "2026-06-30",
+        "ticker": "PLTR",
+        "price_at_pick": 117.03
     }
 ]
