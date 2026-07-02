@@ -28,5 +28,10 @@
         "date": "2026-07-01",
         "ticker": "SMCI",
         "price_at_pick": 28.07
+    },
+    {
+        "date": "2026-07-02",
+        "ticker": "AVGO",
+        "price_at_pick": 358.913
     }
 ]
