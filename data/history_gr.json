@@ -33,5 +33,10 @@
         "date": "2026-07-02",
         "ticker": "TITC.AT",
         "price_at_pick": 51.0
+    },
+    {
+        "date": "2026-07-03",
+        "ticker": "ALPHA.AT",
+        "price_at_pick": 4.075
     }
 ]
