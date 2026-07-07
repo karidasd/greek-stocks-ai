@@ -43,5 +43,10 @@
         "date": "2026-07-06",
         "ticker": "QCOM",
         "price_at_pick": 186.84
+    },
+    {
+        "date": "2026-07-07",
+        "ticker": "QCOM",
+        "price_at_pick": 180.395
     }
 ]

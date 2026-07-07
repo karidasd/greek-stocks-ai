@@ -43,5 +43,10 @@
         "date": "2026-07-06",
         "ticker": "DOGE-USD",
         "price_at_pick": 0.077
+    },
+    {
+        "date": "2026-07-07",
+        "ticker": "DOGE-USD",
+        "price_at_pick": 0.074
     }
 ]
