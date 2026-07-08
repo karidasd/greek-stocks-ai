@@ -48,5 +48,10 @@
         "date": "2026-07-07",
         "ticker": "EUROB.AT",
         "price_at_pick": 4.32
+    },
+    {
+        "date": "2026-07-08",
+        "ticker": "TITC.AT",
+        "price_at_pick": 51.15
     }
 ]
