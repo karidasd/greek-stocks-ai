@@ -53,5 +53,10 @@
         "date": "2026-07-08",
         "ticker": "DOGE-USD",
         "price_at_pick": 0.072
+    },
+    {
+        "date": "2026-07-09",
+        "ticker": "FET-USD",
+        "price_at_pick": 0.161
     }
 ]
