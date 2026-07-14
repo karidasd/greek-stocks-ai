@@ -1,24 +1,24 @@
 {
-    "date": "2026-07-13 19:04",
+    "date": "2026-07-14 18:47",
     "market_name": "Crypto",
     "stocks": [
         {
             "ticker": "BTC-USD",
             "name": "Bitcoin",
-            "price": 61927.2,
-            "change_pct": -2.87,
-            "rsi": 57.0,
-            "tech_tip": "HOLD",
+            "price": 64576.2,
+            "change_pct": 3.75,
+            "rsi": 72.7,
+            "tech_tip": "SELL",
             "sentiment": "Neutral",
             "sentiment_score": 0.11,
             "sparkline": [
-                63297.39453125,
                 62257.57421875,
                 63193.1484375,
                 64127.140625,
                 63802.02734375,
                 63758.21875,
-                61927.19140625
+                62239.12109375,
+                64576.19921875
             ],
             "volume_breakout": false,
             "pattern": "Bearish Trend",
@@ -29,20 +29,20 @@
         {
             "ticker": "ETH-USD",
             "name": "Ethereum",
-            "price": 1763.1,
-            "change_pct": -2.37,
-            "rsi": 67.2,
+            "price": 1873.6,
+            "change_pct": 5.64,
+            "rsi": 80.8,
             "tech_tip": "SELL",
             "sentiment": "Neutral",
             "sentiment_score": 0.0,
             "sparkline": [
-                1768.511474609375,
                 1742.6776123046875,
                 1744.484619140625,
                 1795.6932373046875,
                 1788.099609375,
                 1805.7880859375,
-                1763.0799560546875
+                1773.500732421875,
+                1873.6099853515625
             ],
             "volume_breakout": false,
             "pattern": "Bearish Trend",
@@ -53,20 +53,20 @@
         {
             "ticker": "SOL-USD",
             "name": "Solana",
-            "price": 74.73,
-            "change_pct": -2.79,
-            "rsi": 49.4,
+            "price": 77.2,
+            "change_pct": 3.12,
+            "rsi": 59.1,
             "tech_tip": "HOLD",
             "sentiment": "Neutral",
-            "sentiment_score": -0.15,
+            "sentiment_score": 0.0,
             "sparkline": [
-                80.6487045288086,
                 77.78702545166016,
                 78.04546356201172,
                 78.06661224365234,
                 76.82416534423828,
                 76.87384033203125,
-                74.7300033569336
+                74.86138916015625,
+                77.19999694824219
             ],
             "volume_breakout": false,
             "pattern": "Bearish Trend",
@@ -77,20 +77,20 @@
         {
             "ticker": "BNB-USD",
             "name": "Binance Coin",
-            "price": 564.07,
-            "change_pct": -1.72,
-            "rsi": 52.9,
-            "tech_tip": "HOLD",
+            "price": 579.82,
+            "change_pct": 2.33,
+            "rsi": 68.5,
+            "tech_tip": "SELL",
             "sentiment": "Bullish",
-            "sentiment_score": 0.17,
+            "sentiment_score": 0.32,
             "sparkline": [
-                576.7965698242188,
                 568.3060913085938,
                 568.4684448242188,
                 575.031982421875,
                 574.8894653320312,
                 573.9483032226562,
-                564.0700073242188
+                566.6336669921875,
+                579.8200073242188
             ],
             "volume_breakout": false,
             "pattern": "Bearish Trend",
@@ -101,20 +101,20 @@
         {
             "ticker": "XRP-USD",
             "name": "XRP",
-            "price": 1.061,
-            "change_pct": -2.32,
-            "rsi": 50.6,
+            "price": 1.106,
+            "change_pct": 3.79,
+            "rsi": 62.1,
             "tech_tip": "HOLD",
-            "sentiment": "Bullish",
-            "sentiment_score": 0.24,
+            "sentiment": "Neutral",
+            "sentiment_score": 0.11,
             "sparkline": [
-                1.111780047416687,
                 1.089972972869873,
                 1.093337059020996,
                 1.103922963142395,
                 1.0975810289382935,
                 1.085737943649292,
-                1.0605000257492065
+                1.0654799938201904,
+                1.1059000492095947
             ],
             "volume_breakout": false,
             "pattern": "Bearish Trend",
@@ -125,20 +125,20 @@
         {
             "ticker": "ADA-USD",
             "name": "Cardano",
-            "price": 0.157,
-            "change_pct": -2.81,
-            "rsi": 57.0,
+            "price": 0.163,
+            "change_pct": 3.48,
+            "rsi": 60.5,
             "tech_tip": "HOLD",
             "sentiment": "Neutral",
-            "sentiment_score": -0.13,
+            "sentiment_score": 0.02,
             "sparkline": [
-                0.1744929999113083,
                 0.16689999401569366,
                 0.16651000082492828,
                 0.16651800274848938,
                 0.16596700251102448,
                 0.16195900738239288,
-                0.1573999971151352
+                0.15723100304603577,
+                0.16269999742507935
             ],
             "volume_breakout": false,
             "pattern": "Bearish Trend",
@@ -149,20 +149,20 @@
         {
             "ticker": "AVAX-USD",
             "name": "Avalanche",
-            "price": 6.45,
-            "change_pct": 0.75,
-            "rsi": 43.9,
+            "price": 6.65,
+            "change_pct": 3.19,
+            "rsi": 53.4,
             "tech_tip": "HOLD",
             "sentiment": "Neutral",
-            "sentiment_score": 0.15,
+            "sentiment_score": 0.02,
             "sparkline": [
-                6.689054012298584,
                 6.466151237487793,
                 6.6829071044921875,
                 6.7373881340026855,
                 6.552605152130127,
                 6.401956081390381,
-                6.449999809265137
+                6.4441938400268555,
+                6.650000095367432
             ],
             "volume_breakout": false,
             "pattern": "Bearish Trend",
@@ -173,20 +173,20 @@
         {
             "ticker": "DOGE-USD",
             "name": "Dogecoin",
-            "price": 0.071,
-            "change_pct": -1.88,
-            "rsi": 44.2,
+            "price": 0.074,
+            "change_pct": 3.46,
+            "rsi": 56.7,
             "tech_tip": "HOLD",
             "sentiment": "Neutral",
             "sentiment_score": -0.09,
             "sparkline": [
-                0.07418400049209595,
                 0.07231099903583527,
                 0.07285899668931961,
                 0.07404699921607971,
                 0.07326900213956833,
                 0.07268299907445908,
-                0.07131999731063843
+                0.07185100018978119,
+                0.07434000074863434
             ],
             "volume_breakout": false,
             "pattern": "Bearish Trend",
@@ -197,20 +197,20 @@
         {
             "ticker": "LINK-USD",
             "name": "Chainlink",
-            "price": 7.837,
-            "change_pct": -1.94,
-            "rsi": 61.3,
-            "tech_tip": "HOLD",
+            "price": 8.256,
+            "change_pct": 4.85,
+            "rsi": 73.9,
+            "tech_tip": "SELL",
             "sentiment": "Neutral",
-            "sentiment_score": -0.15,
+            "sentiment_score": 0.09,
             "sparkline": [
-                7.857583999633789,
                 7.628395080566406,
                 7.731356143951416,
                 7.962952136993408,
                 7.923886775970459,
                 7.991987228393555,
-                7.836999893188477
+                7.873745918273926,
+                8.255999565124512
             ],
             "volume_breakout": false,
             "pattern": "Bearish Trend",
@@ -221,20 +221,20 @@
         {
             "ticker": "DOT-USD",
             "name": "Polkadot",
-            "price": 0.83,
-            "change_pct": -1.68,
-            "rsi": 51.3,
+            "price": 0.849,
+            "change_pct": 1.61,
+            "rsi": 56.0,
             "tech_tip": "HOLD",
             "sentiment": "Neutral",
-            "sentiment_score": -0.14,
+            "sentiment_score": 0.07,
             "sparkline": [
-                0.8506320118904114,
                 0.8251339793205261,
                 0.825098991394043,
                 0.8763960003852844,
                 0.8541359901428223,
                 0.8442080020904541,
-                0.8299999833106995
+                0.8355630040168762,
+                0.8489999771118164
             ],
             "volume_breakout": false,
             "pattern": "Bearish Trend",
@@ -245,20 +245,20 @@
         {
             "ticker": "LTC-USD",
             "name": "Litecoin",
-            "price": 43.02,
-            "change_pct": -2.16,
-            "rsi": 49.7,
+            "price": 44.65,
+            "change_pct": 2.67,
+            "rsi": 64.6,
             "tech_tip": "HOLD",
             "sentiment": "Neutral",
-            "sentiment_score": 0.0,
+            "sentiment_score": 0.13,
             "sparkline": [
-                43.89899826049805,
                 43.62316131591797,
                 43.76508331298828,
                 44.75157928466797,
                 44.695613861083984,
                 43.969947814941406,
-                43.02000045776367
+                43.48879623413086,
+                44.650001525878906
             ],
             "volume_breakout": false,
             "pattern": "Bearish Trend",
@@ -269,20 +269,20 @@
         {
             "ticker": "NEAR-USD",
             "name": "NEAR",
-            "price": 1.889,
-            "change_pct": -0.03,
-            "rsi": 52.0,
-            "tech_tip": "HOLD",
-            "sentiment": "Bullish",
-            "sentiment_score": 0.27,
+            "price": 2.027,
+            "change_pct": 5.7,
+            "rsi": 66.5,
+            "tech_tip": "SELL",
+            "sentiment": "Bearish",
+            "sentiment_score": -0.25,
             "sparkline": [
-                1.9751750230789185,
                 1.891005039215088,
                 1.919450044631958,
                 1.8917039632797241,
                 1.8692890405654907,
                 1.8896440267562866,
-                1.8890000581741333
+                1.9176980257034302,
+                2.0269999504089355
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
@@ -293,20 +293,20 @@
         {
             "ticker": "FET-USD",
             "name": "Fetch.ai",
-            "price": 0.159,
-            "change_pct": 0.31,
-            "rsi": 34.2,
-            "tech_tip": "BUY",
+            "price": 0.163,
+            "change_pct": 3.2,
+            "rsi": 42.2,
+            "tech_tip": "HOLD",
             "sentiment": "Bullish",
             "sentiment_score": 0.27,
             "sparkline": [
-                0.16371099650859833,
                 0.15945200622081757,
                 0.15955600142478943,
                 0.16210900247097015,
                 0.15859900414943695,
                 0.15821300446987152,
-                0.15870000422000885
+                0.1576489955186844,
+                0.16269999742507935
             ],
             "volume_breakout": false,
             "pattern": "Bearish Trend",
@@ -317,33 +317,33 @@
     ],
     "sotd": "FET-USD",
     "fear_greed": {
-        "score": 52,
-        "status": "Neutral"
+        "score": 58,
+        "status": "Greed"
     },
     "market_news": [
         {
-            "title": "Current price of Ethereum for July 13, 2026 - Fortune",
-            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QempHelNFYXB0NDRGbE16eWFLVkpDUGw2SjhRaW9TaVkxU3RIdHBjVE1wWjhFczFfNnJhZVcwazZCX3JXNzRvQkVqZk11bWR4WW92dlNDaVU0RlNVbzMxcjQ5Z3hrQkdz?oc=5"
+            "title": "Prediction: This Cryptocurrency Could Overtake Bitcoin and Ethereum Combined in Total Value - Yahoo Finance",
+            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTUpKQUEwMFM1SG1HbFdsQ3pvcmNhTDVsd2tqNzhLRFBUUDlvajN1WnRiLTJKbVl3YnhLMW1RajkyUXhLVmxwa3VWM3RockdwUGFNdDMxcDJvOHp2anZ6Y1lVdGp2MXh4eW5ET2JaS0d4R0tUWjFBZ1A2ZzNQenVueEsyZDRnU1VjUS01R0sxRVVfQ3lmSW1Sbnc0OEFPNFdzYlE1Vzl3dXYxblFYYUl4R2lDVQ?oc=5"
         },
         {
-            "title": "Bitcoin, Ethereum, XRP, Dogecoin Consolidate as US-Iran Tensions Escalate: Analyst Says People Will Be 'Surprised' by Upcoming Bull Cycle - Yahoo Finance",
-            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYzNjSzhUamlsX0F0ZTNIdWRQQkttTmVQaVVoM016NFlYNXZQQWJuUmRqWDUzQmNEdHpWYm1WNWdSWk13Ym1BU1EzazhIakd4ZWs1YXRsZjVSbmNEdWNPeHNtUmtZWThtaXp3bG9zVGVZV1RoWVFOUEc0TFJHQkNYRHM0RC1rWWRZeXU1T3Y0Tkw1TUpQU0dPaG9xTlZCOEQ3WXdrVE1QMHpOUQ?oc=5"
+            "title": "Current price of Ethereum for July 14, 2026 - Fortune",
+            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HTGJrZm1OaV9TcUt0bHhoc1pBb0Y0MUVmNy1zRWNSSzBjMk0zUlNWMVR4WUZyNVlFZUZIZDdqWWpnTE1NeFRGRFB5MFpaUkxRMmRhZ2d3SkpENmg2d1p1YUlwU2lUbVAx?oc=5"
         },
         {
-            "title": "Here's What to Buy to Prepare for the Next Crypto Bull Market (Hint: It's Not Just Bitcoin) - The Motley Fool",
-            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRUUyemhvcktNaW9LM3phTkxLVzkyempVQkFmZXZJSmxkclNaUV9uVmMtMUU2UGRsZXZSemZNN2Y2VkxPamFoLTNyNW5IdklPaGR4ZzY1dzhjYVI3UzZKN2ZyZlJza0dRMS1rN0JHcUw1aGNpOTVreGFXVE82Q3paN0JFMmtjNXFhZzRZN2Z4eGF2Q295LUYzQQ?oc=5"
+            "title": "Prediction: This Cryptocurrency Could Overtake Bitcoin and Ethereum Combined in Total Value - The Motley Fool",
+            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNEJqbFVIdzhMLXRZV0g2OFctSzM0ZUtOeW1jVzl3ZUVZeTc4dThOdEpaaklEZTNRWEkyZG1vOFd3dFVPcWJxU3dyRW1adS1oZUdlZHFwTXNZQ0loLTY0SmRSMXBJN3pKcXpvcDRueGFWNlFGWXVyV0JXby1oUlJiMXpYVVhwVFF2NllRV1dR?oc=5"
         },
         {
-            "title": "Crypto Today: Bitcoin, Ethereum, XRP stay under pressure as US and Iran exchange fresh attacks - FXStreet",
-            "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSEF6a2tQNm9qQUR0eFF2V3NWWVhpeUhvd2FsLWY4TDhNc3lURHQtREJoYi1YRDd2YTBlYlI5ZHBkSlJkQWd2SGRKUHFPZVhUX3lzRUpGVVJIZW9KV3pMV0Q0Zll0OHBNejhKaWUtQ1ZqUDczTG0wdVFKX29iVjdwN1BEcVJyVWltTUViMHIzcldPVmFmd2hPZU1vQ0tiZExCa2laa0sycXVLN3ZEVFQ1dllBYkR5QTJxZmU5dVNmVXpobkNaZkU5UFI1aU9fbThjb3ozcGhwdEZSNkktNHpGXzdTR2VUZw?oc=5"
+            "title": "BTC, ETH news: U.S. government moves $288 million in seized bitcoin, ether to Coinbase Prime - CoinDesk",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZFhKTnFoS0kyYV82SWlCSVV5U3E1V0FGXzQ2cXROb2dJeGhSUXV4U0hhYnQxNXhHUTVMdlJWTlJoRDVwNHlVRkhkcGY5YVFWckJBc3BnbDhzUHMxWnJpNTVIa3A1N3ZLdDlnb1BXcVBlZ3RtVjVqaExJZkRhMlI0MjU3UWhjWG5EMHBnU0p5X19OVk1UazMzaGxDMjBYUEgwLUtmUEZ1QWpPOVpqQU5sQzhNRldxNTJ6UzBhM3pn?oc=5"
         },
         {
-            "title": "Bitcoin, Ethereum, XRP, Dogecoin Plunge Over 3% on Escalating US-Iran Tensions - Benzinga",
-            "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZlgtZHRFT0kwX1c2bUNHSUh6QVNGdlVHLTlISUtSOUNHQkJraWVIRVlId0R0bmVYQ3V6eFVKY19zY3dFUnY2Qnc2WDh0S3JpUy1SV2J4bFJpYzNkRTVCWk9BSkhScm1zM3B3ei0zMTB4Ny1yZU00UHJVV2I1UE1rNzVwS3lUVVp6c2ZDR0RrVkdvOWk4T01ndG1NaGIyeFV5N21qVl9Gd3RaejhYRmtMejFaOUtCZW5faHJucUJoQXZUVnN2ME5GZ0JCVHV5WEpFYUE?oc=5"
+            "title": "Bitcoin, Ethereum and XRP Prices Rally Even as Fed Chair Warsh Says ‘No Crypto Bailout’ - Coinpedia",
+            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQXNzWk05UlVQNENQel9wUUl0ZkN0V25OWGl0WGlPUmxEcDh2WENmakxuY0IwOXZSWXlwSjIzVnc1N1hVR0tIdkJkZU9DcEFqb1E3MWd0c1JKTmw5YnJ6YlNXY3N5ai1FYkJaQmhYeU1hSDZMSjlISC1Ca2hmMkZkLW9jaTA4WDhvSDZDR1BkQkxMUnduVlZCNklEX2Jud0pFNzNRaDFVZjk2c0JnX2tnSUR30gG3AUFVX3lxTFBqVGxpWFFoWlljYVpkMlFYMXI5YW1tbkZvVW9QUVhJTWg2R2VoVGlibjdBczBra093TmVpc0FvcUVWOGtCZmpKblJ5T0NiRktodVBVUmtpdjV4V0N2TmVzdDlDVld1REg4QlpCclV4SWgtMU40Z0FlbEVXb1QtRWlGMDQ4eUZIUFBBS3FONUhxMkRqbm43bUlaVGtwYzBScGtoWnVYTmh3d0tWNE5KZm1jX0ZxUzFrRQ?oc=5"
         }
     ],
     "sotd_win_rate": {
-        "rate": 0.0,
-        "total": 13
+        "rate": 71.4,
+        "total": 14
     }
 }

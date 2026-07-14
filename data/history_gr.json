@@ -68,5 +68,10 @@
         "date": "2026-07-13",
         "ticker": "VIO.AT",
         "price_at_pick": 18.18
+    },
+    {
+        "date": "2026-07-14",
+        "ticker": "TITC.AT",
+        "price_at_pick": 50.75
     }
 ]
