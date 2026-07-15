@@ -73,5 +73,10 @@
         "date": "2026-07-14",
         "ticker": "TITC.AT",
         "price_at_pick": 50.75
+    },
+    {
+        "date": "2026-07-15",
+        "ticker": "TITC.AT",
+        "price_at_pick": 49.52
     }
 ]
