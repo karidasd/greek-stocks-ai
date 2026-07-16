@@ -78,5 +78,10 @@
         "date": "2026-07-15",
         "ticker": "TITC.AT",
         "price_at_pick": 49.52
+    },
+    {
+        "date": "2026-07-16",
+        "ticker": "CENER.AT",
+        "price_at_pick": 20.26
     }
 ]
