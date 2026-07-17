@@ -83,5 +83,10 @@
         "date": "2026-07-16",
         "ticker": "CENER.AT",
         "price_at_pick": 20.26
+    },
+    {
+        "date": "2026-07-17",
+        "ticker": "VIO.AT",
+        "price_at_pick": 17.12
     }
 ]

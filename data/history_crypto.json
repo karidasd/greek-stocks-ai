@@ -83,5 +83,10 @@
         "date": "2026-07-16",
         "ticker": "FET-USD",
         "price_at_pick": 0.159
+    },
+    {
+        "date": "2026-07-17",
+        "ticker": "FET-USD",
+        "price_at_pick": 0.16
     }
 ]
