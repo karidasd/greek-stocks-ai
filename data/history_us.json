@@ -93,5 +93,10 @@
         "date": "2026-07-20",
         "ticker": "SMCI",
         "price_at_pick": 23.945
+    },
+    {
+        "date": "2026-07-21",
+        "ticker": "SMCI",
+        "price_at_pick": 25.25
     }
 ]

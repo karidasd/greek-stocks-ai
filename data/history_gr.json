@@ -93,5 +93,10 @@
         "date": "2026-07-20",
         "ticker": "TITC.AT",
         "price_at_pick": 48.9
+    },
+    {
+        "date": "2026-07-21",
+        "ticker": "TITC.AT",
+        "price_at_pick": 49.0
     }
 ]
