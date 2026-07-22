@@ -98,5 +98,10 @@
         "date": "2026-07-21",
         "ticker": "SMCI",
         "price_at_pick": 25.25
+    },
+    {
+        "date": "2026-07-22",
+        "ticker": "ARM",
+        "price_at_pick": 285.59
     }
 ]
