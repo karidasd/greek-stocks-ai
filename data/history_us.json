@@ -103,5 +103,10 @@
         "date": "2026-07-22",
         "ticker": "ARM",
         "price_at_pick": 285.59
+    },
+    {
+        "date": "2026-07-23",
+        "ticker": "GOOG",
+        "price_at_pick": 319.2
     }
 ]
