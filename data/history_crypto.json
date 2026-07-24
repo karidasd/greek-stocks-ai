@@ -108,5 +108,10 @@
         "date": "2026-07-23",
         "ticker": "FET-USD",
         "price_at_pick": 0.152
+    },
+    {
+        "date": "2026-07-24",
+        "ticker": "BNB-USD",
+        "price_at_pick": 557.3
     }
 ]

@@ -108,5 +108,10 @@
         "date": "2026-07-23",
         "ticker": "TITC.AT",
         "price_at_pick": 50.2
+    },
+    {
+        "date": "2026-07-24",
+        "ticker": "GEKTERNA.AT",
+        "price_at_pick": 42.78
     }
 ]
