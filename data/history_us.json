@@ -113,5 +113,10 @@
         "date": "2026-07-24",
         "ticker": "GOOG",
         "price_at_pick": 319.28
+    },
+    {
+        "date": "2026-07-27",
+        "ticker": "QCOM",
+        "price_at_pick": 169.65
     }
 ]
