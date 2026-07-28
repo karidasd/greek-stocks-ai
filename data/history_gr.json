@@ -118,5 +118,10 @@
         "date": "2026-07-27",
         "ticker": "VIO.AT",
         "price_at_pick": 17.6
+    },
+    {
+        "date": "2026-07-28",
+        "ticker": "VIO.AT",
+        "price_at_pick": 17.12
     }
 ]

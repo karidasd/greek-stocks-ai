@@ -118,5 +118,10 @@
         "date": "2026-07-27",
         "ticker": "QCOM",
         "price_at_pick": 169.65
+    },
+    {
+        "date": "2026-07-28",
+        "ticker": "TSLA",
+        "price_at_pick": 306.48
     }
 ]
