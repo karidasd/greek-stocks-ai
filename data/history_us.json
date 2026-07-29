@@ -123,5 +123,10 @@
         "date": "2026-07-28",
         "ticker": "TSLA",
         "price_at_pick": 306.48
+    },
+    {
+        "date": "2026-07-29",
+        "ticker": "TSLA",
+        "price_at_pick": 303.97
     }
 ]
