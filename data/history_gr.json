@@ -128,5 +128,10 @@
         "date": "2026-07-29",
         "ticker": "GEKTERNA.AT",
         "price_at_pick": 42.36
+    },
+    {
+        "date": "2026-07-30",
+        "ticker": "HTO.AT",
+        "price_at_pick": 20.24
     }
 ]
