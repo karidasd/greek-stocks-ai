@@ -138,5 +138,10 @@
         "date": "2026-07-31",
         "ticker": "TSLA",
         "price_at_pick": 310.797
+    },
+    {
+        "date": "2026-08-03",
+        "ticker": "INTC",
+        "price_at_pick": 90.53
     }
 ]

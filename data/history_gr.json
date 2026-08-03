@@ -138,5 +138,10 @@
         "date": "2026-07-31",
         "ticker": "TITC.AT",
         "price_at_pick": 52.1
+    },
+    {
+        "date": "2026-08-03",
+        "ticker": "HTO.AT",
+        "price_at_pick": 20.4
     }
 ]
