@@ -143,5 +143,10 @@
         "date": "2026-08-03",
         "ticker": "NEAR-USD",
         "price_at_pick": 1.744
+    },
+    {
+        "date": "2026-08-04",
+        "ticker": "XRP-USD",
+        "price_at_pick": 1.076
     }
 ]
