@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-06-24",
-        "ticker": "AVGO",
-        "price_at_pick": 380.15
-    },
-    {
         "date": "2026-06-25",
         "ticker": "AVGO",
         "price_at_pick": 382.07
@@ -148,5 +143,10 @@
         "date": "2026-08-04",
         "ticker": "TSLA",
         "price_at_pick": 329.28
+    },
+    {
+        "date": "2026-08-05",
+        "ticker": "AAPL",
+        "price_at_pick": 308.84
     }
 ]
