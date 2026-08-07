@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-06-25",
-        "ticker": "DOGE-USD",
-        "price_at_pick": 0.076
-    },
-    {
         "date": "2026-06-26",
         "ticker": "DOT-USD",
         "price_at_pick": 0.858
@@ -148,5 +143,10 @@
         "date": "2026-08-05",
         "ticker": "XRP-USD",
         "price_at_pick": 1.069
+    },
+    {
+        "date": "2026-08-07",
+        "ticker": "FET-USD",
+        "price_at_pick": 0.135
     }
 ]
