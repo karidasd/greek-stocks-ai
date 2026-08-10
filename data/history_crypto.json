@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-06-26",
-        "ticker": "DOT-USD",
-        "price_at_pick": 0.858
-    },
-    {
         "date": "2026-06-29",
         "ticker": "DOT-USD",
         "price_at_pick": 0.831
@@ -148,5 +143,10 @@
         "date": "2026-08-07",
         "ticker": "FET-USD",
         "price_at_pick": 0.135
+    },
+    {
+        "date": "2026-08-10",
+        "ticker": "NEAR-USD",
+        "price_at_pick": 1.604
     }
 ]
