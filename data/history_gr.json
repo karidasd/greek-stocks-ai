@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-06-30",
-        "ticker": "MOH.AT",
-        "price_at_pick": 38.38
-    },
-    {
         "date": "2026-07-01",
         "ticker": "MOH.AT",
         "price_at_pick": 39.96
@@ -148,5 +143,10 @@
         "date": "2026-08-11",
         "ticker": "TITC.AT",
         "price_at_pick": 51.5
+    },
+    {
+        "date": "2026-08-12",
+        "ticker": "TITC.AT",
+        "price_at_pick": 51.75
     }
 ]

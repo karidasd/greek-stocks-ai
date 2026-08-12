@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-06-30",
-        "ticker": "DOGE-USD",
-        "price_at_pick": 0.072
-    },
-    {
         "date": "2026-07-01",
         "ticker": "DOGE-USD",
         "price_at_pick": 0.073
@@ -148,5 +143,10 @@
         "date": "2026-08-11",
         "ticker": "NEAR-USD",
         "price_at_pick": 1.559
+    },
+    {
+        "date": "2026-08-12",
+        "ticker": "XRP-USD",
+        "price_at_pick": 1.01
     }
 ]
