@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-07-10",
-        "ticker": "QCOM",
-        "price_at_pick": 188.46
-    },
-    {
         "date": "2026-07-13",
         "ticker": "SMCI",
         "price_at_pick": 27.44
@@ -148,5 +143,10 @@
         "date": "2026-08-21",
         "ticker": "GOOG",
         "price_at_pick": 341.74
+    },
+    {
+        "date": "2026-08-24",
+        "ticker": "GOOG",
+        "price_at_pick": 345.23
     }
 ]
