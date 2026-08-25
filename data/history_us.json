@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-07-13",
-        "ticker": "SMCI",
-        "price_at_pick": 27.44
-    },
-    {
         "date": "2026-07-14",
         "ticker": "SMCI",
         "price_at_pick": 27.775
@@ -148,5 +143,10 @@
         "date": "2026-08-24",
         "ticker": "GOOG",
         "price_at_pick": 345.23
+    },
+    {
+        "date": "2026-08-25",
+        "ticker": "ARM",
+        "price_at_pick": 241.722
     }
 ]
