@@ -1,397 +1,397 @@
 {
-    "date": "2026-09-01 20:09",
+    "date": "2026-09-02 20:06",
     "market_name": "US Tech",
     "stocks": [
         {
             "ticker": "AAPL",
             "name": "Apple",
-            "price": 325.13,
-            "change_pct": 2.61,
-            "rsi": 75.4,
+            "price": 324.96,
+            "change_pct": -0.05,
+            "rsi": 73.3,
             "tech_tip": "SELL",
             "sentiment": "Neutral",
-            "sentiment_score": 0.0,
+            "sentiment_score": 0.11,
             "sparkline": [
-                310.3399963378906,
                 309.8999938964844,
                 313.45001220703125,
                 314.5799865722656,
                 319.70001220703125,
                 316.8500061035156,
-                325.1300048828125
+                325.1300048828125,
+                324.9599914550781
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 37.33,
-            "dividend_yield": 34.0,
+            "pe_ratio": 37.31,
+            "dividend_yield": 33.0,
             "upcoming_event": null
         },
         {
             "ticker": "MSFT",
             "name": "Microsoft",
-            "price": 501.02,
-            "change_pct": -1.24,
-            "rsi": 56.6,
+            "price": 496.82,
+            "change_pct": -0.84,
+            "rsi": 50.6,
             "tech_tip": "HOLD",
-            "sentiment": "Bearish",
-            "sentiment_score": -0.18,
+            "sentiment": "Neutral",
+            "sentiment_score": 0.12,
             "sparkline": [
-                487.30999755859375,
                 491.7099914550781,
                 496.3699951171875,
                 505.05999755859375,
                 513.530029296875,
                 507.2900085449219,
-                501.0199890136719
+                501.0199890136719,
+                496.82000732421875
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 27.9,
-            "dividend_yield": 71.0,
+            "pe_ratio": 27.69,
+            "dividend_yield": 73.0,
             "upcoming_event": null
         },
         {
             "ticker": "NVDA",
             "name": "Nvidia",
-            "price": 217.44,
-            "change_pct": -1.51,
-            "rsi": 44.6,
+            "price": 224.41,
+            "change_pct": 3.21,
+            "rsi": 49.3,
             "tech_tip": "HOLD",
             "sentiment": "Neutral",
-            "sentiment_score": 0.05,
+            "sentiment_score": 0.14,
             "sparkline": [
-                208.47999572753906,
                 213.0500030517578,
                 209.66000366210938,
                 227.97999572753906,
                 217.5500030517578,
                 220.77999877929688,
-                217.44000244140625
+                217.44000244140625,
+                224.41000366210938
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 27.52,
+            "pe_ratio": 28.37,
             "dividend_yield": 46.0,
-            "upcoming_event": "Dividend in 8 days"
+            "upcoming_event": "Dividend in 7 days"
         },
         {
             "ticker": "TSLA",
             "name": "Tesla",
-            "price": 356.09,
-            "change_pct": -3.22,
-            "rsi": 61.5,
+            "price": 357.01,
+            "change_pct": 0.26,
+            "rsi": 57.6,
             "tech_tip": "HOLD",
             "sentiment": "Neutral",
-            "sentiment_score": 0.0,
+            "sentiment_score": 0.15,
             "sparkline": [
-                348.95001220703125,
                 350.25,
                 345.82000732421875,
                 354.80999755859375,
                 348.75,
                 367.95001220703125,
-                356.0899963378906
+                356.0899963378906,
+                357.010009765625
             ],
             "volume_breakout": false,
             "pattern": "Bearish Trend",
-            "pe_ratio": 332.79,
+            "pe_ratio": 333.65,
             "dividend_yield": 0,
             "upcoming_event": null
         },
         {
             "ticker": "GOOG",
             "name": "Alphabet",
-            "price": 332.03,
-            "change_pct": -1.01,
-            "rsi": 36.2,
+            "price": 333.78,
+            "change_pct": 0.53,
+            "rsi": 36.5,
             "tech_tip": "BUY",
             "sentiment": "Neutral",
             "sentiment_score": 0.15,
             "sparkline": [
-                344.5899963378906,
                 343.3399963378906,
                 339.1000061035156,
                 337.7099914550781,
                 342.8800048828125,
                 335.4100036621094,
-                332.0299987792969
+                332.0299987792969,
+                333.7799987792969
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 16.67,
-            "dividend_yield": 26.0,
-            "upcoming_event": "Dividend in 2 days"
+            "pe_ratio": 16.76,
+            "dividend_yield": 27.0,
+            "upcoming_event": "Dividend in 1 days"
         },
         {
             "ticker": "AMZN",
             "name": "Amazon",
-            "price": 254.92,
-            "change_pct": -1.87,
-            "rsi": 38.2,
+            "price": 254.98,
+            "change_pct": 0.02,
+            "rsi": 39.9,
             "tech_tip": "BUY",
             "sentiment": "Neutral",
-            "sentiment_score": 0.04,
+            "sentiment_score": 0.08,
             "sparkline": [
-                262.07000732421875,
                 261.05999755859375,
                 260.2799987792969,
                 256.260009765625,
                 266.42999267578125,
                 259.7699890136719,
-                254.9199981689453
+                254.9199981689453,
+                254.97999572753906
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 20.49,
+            "pe_ratio": 20.5,
             "dividend_yield": 0,
             "upcoming_event": null
         },
         {
             "ticker": "META",
             "name": "Meta",
-            "price": 578.54,
-            "change_pct": 1.08,
-            "rsi": 49.9,
+            "price": 592.85,
+            "change_pct": 2.47,
+            "rsi": 49.1,
             "tech_tip": "HOLD",
             "sentiment": "Neutral",
             "sentiment_score": 0.04,
             "sparkline": [
-                559.02001953125,
                 570.0499877929688,
                 576.1400146484375,
                 571.0999755859375,
                 578.02001953125,
                 572.3400268554688,
-                578.5399780273438
+                578.5399780273438,
+                592.8499755859375
             ],
             "volume_breakout": false,
             "pattern": "Bearish Trend",
-            "pe_ratio": 21.78,
+            "pe_ratio": 22.33,
             "dividend_yield": 36.0,
             "upcoming_event": null
         },
         {
             "ticker": "AMD",
             "name": "AMD",
-            "price": 459.61,
-            "change_pct": -2.36,
-            "rsi": 42.6,
+            "price": 457.06,
+            "change_pct": -0.55,
+            "rsi": 41.9,
             "tech_tip": "HOLD",
-            "sentiment": "Bullish",
-            "sentiment_score": 0.33,
+            "sentiment": "Neutral",
+            "sentiment_score": 0.08,
             "sparkline": [
-                456.75,
                 479.17999267578125,
                 480.92999267578125,
                 476.6700134277344,
                 465.5799865722656,
                 470.7200012207031,
-                459.6099853515625
+                459.6099853515625,
+                457.05999755859375
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 117.55,
+            "pe_ratio": 116.9,
             "dividend_yield": 0,
             "upcoming_event": null
         },
         {
             "ticker": "NFLX",
             "name": "Netflix",
-            "price": 80.81,
-            "change_pct": -0.3,
-            "rsi": 67.5,
-            "tech_tip": "SELL",
+            "price": 82.73,
+            "change_pct": 2.38,
+            "rsi": 63.4,
+            "tech_tip": "HOLD",
             "sentiment": "Neutral",
-            "sentiment_score": -0.08,
+            "sentiment_score": -0.15,
             "sparkline": [
-                80.01000213623047,
                 82.2300033569336,
                 81.45999908447266,
                 79.83999633789062,
                 81.72000122070312,
                 81.05000305175781,
-                80.80999755859375
+                80.80999755859375,
+                82.7300033569336
             ],
             "volume_breakout": false,
             "pattern": "Bearish Trend",
-            "pe_ratio": 25.41,
+            "pe_ratio": 26.02,
             "dividend_yield": 0,
             "upcoming_event": null
         },
         {
             "ticker": "INTC",
             "name": "Intel",
-            "price": 88.97,
-            "change_pct": -0.6,
-            "rsi": 30.6,
+            "price": 90.05,
+            "change_pct": 1.21,
+            "rsi": 24.4,
             "tech_tip": "BUY",
             "sentiment": "Neutral",
-            "sentiment_score": 0.07,
+            "sentiment_score": 0.1,
             "sparkline": [
-                87.26000213623047,
                 87.4800033569336,
                 88.23999786376953,
                 92.08999633789062,
                 89.47000122070312,
                 89.51000213623047,
-                88.97000122070312
+                88.97000122070312,
+                90.05000305175781
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 43.61,
+            "pe_ratio": 44.14,
             "dividend_yield": 0,
             "upcoming_event": null
         },
         {
             "ticker": "PLTR",
             "name": "Palantir",
-            "price": 179.92,
-            "change_pct": -3.47,
-            "rsi": 58.3,
+            "price": 169.46,
+            "change_pct": -5.81,
+            "rsi": 41.5,
             "tech_tip": "HOLD",
-            "sentiment": "Bullish",
-            "sentiment_score": 0.32,
+            "sentiment": "Bearish",
+            "sentiment_score": -0.25,
             "sparkline": [
-                175.88999938964844,
                 172.72999572753906,
                 177.5,
                 185.92999267578125,
                 186.2899932861328,
                 186.3800048828125,
-                179.9199981689453
+                179.9199981689453,
+                169.4600067138672
             ],
             "volume_breakout": false,
             "pattern": "Bearish Trend",
-            "pe_ratio": 153.78,
+            "pe_ratio": 144.84,
             "dividend_yield": 0,
             "upcoming_event": null
         },
         {
             "ticker": "SMCI",
             "name": "Super Micro",
-            "price": 36.71,
-            "change_pct": -1.53,
-            "rsi": 47.2,
+            "price": 37.0,
+            "change_pct": 0.79,
+            "rsi": 42.7,
             "tech_tip": "HOLD",
             "sentiment": "Bullish",
-            "sentiment_score": 0.64,
+            "sentiment_score": 0.44,
             "sparkline": [
-                35.16999816894531,
                 38.459999084472656,
                 37.38999938964844,
                 38.459999084472656,
                 37.08000183105469,
                 37.279998779296875,
-                36.709999084472656
+                36.709999084472656,
+                37.0
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 11.26,
+            "pe_ratio": 11.35,
             "dividend_yield": 0,
             "upcoming_event": null
         },
         {
             "ticker": "ARM",
             "name": "ARM",
-            "price": 234.82,
-            "change_pct": -2.93,
-            "rsi": 30.2,
+            "price": 234.86,
+            "change_pct": 0.02,
+            "rsi": 24.8,
             "tech_tip": "BUY",
             "sentiment": "Bullish",
-            "sentiment_score": 0.41,
+            "sentiment_score": 0.2,
             "sparkline": [
-                238.77999877929688,
                 241.55999755859375,
                 251.05999755859375,
                 255.2100067138672,
                 239.0500030517578,
                 241.91000366210938,
-                234.82000732421875
+                234.82000732421875,
+                234.86000061035156
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 237.19,
+            "pe_ratio": 237.23,
             "dividend_yield": 0,
             "upcoming_event": null
         },
         {
             "ticker": "AVGO",
             "name": "Broadcom",
-            "price": 369.68,
-            "change_pct": -0.18,
-            "rsi": 26.1,
+            "price": 367.24,
+            "change_pct": -0.66,
+            "rsi": 24.1,
             "tech_tip": "BUY",
             "sentiment": "Neutral",
-            "sentiment_score": -0.15,
+            "sentiment_score": 0.0,
             "sparkline": [
-                358.760009765625,
                 356.739990234375,
                 355.5899963378906,
                 371.5400085449219,
                 368.7900085449219,
                 370.3399963378906,
-                369.67999267578125
+                369.67999267578125,
+                367.239990234375
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 61.61,
+            "pe_ratio": 60.9,
             "dividend_yield": 70.0,
             "upcoming_event": null
         },
         {
             "ticker": "QCOM",
             "name": "Qualcomm",
-            "price": 166.61,
-            "change_pct": -2.27,
-            "rsi": 55.8,
+            "price": 169.96,
+            "change_pct": 2.01,
+            "rsi": 58.1,
             "tech_tip": "HOLD",
             "sentiment": "Bullish",
-            "sentiment_score": 0.26,
+            "sentiment_score": 0.35,
             "sparkline": [
-                158.52999877929688,
                 160.55999755859375,
                 163.72000122070312,
                 164.77999877929688,
                 164.19000244140625,
                 170.47999572753906,
-                166.61000061035156
+                166.61000061035156,
+                169.9600067138672
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 19.04,
-            "dividend_yield": 224.0,
-            "upcoming_event": "Dividend in 1 days"
+            "pe_ratio": 19.42,
+            "dividend_yield": 221.0,
+            "upcoming_event": "Dividend in 0 days"
         }
     ],
     "sotd": "ARM",
     "fear_greed": {
-        "score": 52,
+        "score": 50,
         "status": "Neutral"
     },
     "market_news": [
         {
-            "title": "Stocks slip on Wall Street under pressure from rising oil prices, bond sell-off - Boston Herald",
-            "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZ29KXy0wVHpwSzBhTTlwUU4wcUNIM3JzQnJjQXdGT2ZlVGs5Tm5HMTVrT0dBUVVqQ3Qxenc0eDVMRm1qcWNVVmNhTWF4bFJPQ3IwWk5HN3B5WW0tYl8wOUJqc1dWMUNkY2gyUTZPQkpVU3REYVduM2NhbXpYUjdLRg?oc=5"
+            "title": "Wall Street rises as tech stocks climb and oil prices, bond yields hold relatively steady - Yahoo! Finance Canada",
+            "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObWNRalZSZ3EzVS1YWUpEU193NC1VVDZjS19CX0ZLbmxnbzZkT25rN2JzYW5tZVJKMmpkUnMtWGplY0IzZV9pMmN3Vk5ydXNnYVdrOG5NMkxRaDFkT1JkLWJMNUd5dG1Ic09FbUdFcUFRLXpOdUFIVGlMbzhiNXpiUEpZY01CdzFq?oc=5"
         },
         {
-            "title": "3 US Growth Stocks With Long Duration Tech Exposure Retail Investors Should Screen - simplywall.st",
-            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdXJXdUx3SGt5UDYzbTBNNnNaR3I1Q2luamtYVzIxMXZWdDVBRUhHSG5PVVFXNnI1bkxxQ2RoSl9oR1hJSUpidW5FVGUtY2ZLWXJEZm9qSFE2VmFlbExvVXltcmdCN1I1dzBXN2FUV05XMENXYXJwRlB2VUlLRHBVbUxUZDhlZFBiNHU0SVU0T0l4R19sRms3bHA4UGtub3pNbFNlSWc3dEY1UVZCMEUwaEZPSUhhX19ySE9aUFVrSHZwbi10M29yWTJBTdIB0AFBVV95cUxNOHRfdGIwVmhmamFRdHNHMDhjMWFQakNZY1liRE1OS1JiUXR1NEhCWU0xSkNJMVo0VlFLQ0RwZ2dDRktkM25Pb2tMNDQzSjVwWXpTT1Z6Mmo1NkxEYmJUUDZnU2l3aVFzN2xZYThPNksyQl9CQWpmeHk1VXRHUFhZcm1SaEQtNTFfbUJzekpSOUpwMW1hdk9Hc2hOZ3VtYVlINE02dkc0N0Foa1BKSDZKOXJLSTNCWF9sSEwxN1NGbnNuOFR2Zkppd1NfTEo0Z0tj?oc=5"
+            "title": "Wall Street rises as tech stocks climb and oil prices, bond yields hold relatively steady - Traverse City Record-Eagle",
+            "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNcDVUcnVfeHN0VmowSEhkWlFxaTdvZUlEZFlDWTJFR0p1eGdKdmd5N3lTZWJGNUFhRkxPUnN0NjRYQzRsZDloT0t0MENjdnF2VHFmdG1HZklIdFF0MExpTFVzeVFWbC1nUUhxdV9GZElyREx0QUx5WXdjQl9DZHU4RmhleWNzSnc2MjhZaTZSMHgtck5aWkU0UmxrajJzTGJ6MEN5bkZRRTNtSVA2cDBDR3NBY1YyQzgtekU2WThobzhfOVV2dVpmUWhlNGZxNExUVnlaMEhxckh5bkQ3ZjBJb2R2bThqVk8yMDUxaHk2NlZTZzE2TzJRU3BMS001Y3FJZTd6MV93WFRMWTQ?oc=5"
         },
         {
-            "title": "Tech stocks lead Wall Street after Nvidia, Salesforce and others report big profits - ABC News - Breaking News, Latest News and Videos",
-            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmVLOXI5VzliemFwd3BBVWxIc2VfMW9PR3ZJOE9halg2ekxxRnlMMlpMWFltNl9MNVRIUVFQZnNKQmR2U1U5OHdkN25XSjUyM3FRMnhMN0UzTHdwMmI0VHdYUC1pUkZ4cVVWbEtMcU5FSUZYa2JaeG5QOTNwYTFUMGpUc1Y3Vi10blpYeS1lZkZRTG1jVERNcTJYaFJYaVlN0gGmAUFVX3lxTE11dm5TSDdrLUxVcE9LYUF2VElxaUdsWDlYNXN2SEI2cXlJQ2NQYkxrUGtXQ05IeHNXeHkxaHItWEdyRlpDcU82QzBhS2V5aVF3S3NHbFgxUElpVm45NkNXVG1JRTUwUHppbGFRdk5KSTdrdWU5R2wzaHdzM2hfUV9VN1ZYdmZjNFdmSDJ5dHY4cFBtemc4MFlpaWNJMUs0eWY2eDA4b0E?oc=5"
+            "title": "Stocks slip on Wall Street under pressure from rising oil prices, bond sell-off - PBS",
+            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVUpDbXlNdGxqU3l1LVBFQ1drbmNpcU40UmxDTldlNlBiOE9aazU2bVg1VE1qOXAtM1Z3VlBIUHNpN1NMWlZlSm9DY3cxLVdjTVNDcFZPUTAxUHhkNFMwUW9WQWVPUnlKZ2Fqc3dBRUV3aTNfU3JVWlVCYk56cC12clA4dGFRN2hoYWg2cUMybmh4ZkEtV0d0VTdZTDQwYUVBV01oRmxPMmxnMENCc3BkY0xpWU5mZ9IBuwFBVV95cUxPbVR0dUcteGhCV0s5UmFidkNta0didWVNOVk1WTRkUTJYbDZnTjhBOTJsNFNZMWUwdm00S0g4WmNLbm9vS3d0UkVoc3FWZXZOcmNBRjNqSGtCd0JFa3RxTVY1Wks1OW1hVDdlMFp6eUFMUFNMWkprcjB5eFlqdldxT3BCaDJLczJkdDhSREN2Y29QX0tUOWROZk4xd2M3bEZiVGRrTDZDeXZXV3RydTZ0bl9aV0JFWVJXc2U4?oc=5"
         },
         {
-            "title": "Tech stocks lead Wall Street after Nvidia, Salesforce and others say AI is creating big growth - ksn.com",
-            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa3VBVXNMTEhLRWlfam5EUE5fbks4Z2puVHFLeF9WZXdEX3R2cTdMV1Z3anlEZk5lYTRqOWVNcTJmd3h3amV2ZkR6LUlVbXg3RWF1QmVZZ3pmSXBocHAzTk8xb1htMm9nN05xX3RkSmxMRExCWnBWMk90T2RYcGRnUU1Za0dTVXp6MlNNVy0zU0ZyMlJ1SXpIZzF2T3phaEVBdmd3cUJUVDItR3ZVZzFfOVdn0gG3AUFVX3lxTE1pODE0UHBpaFJoNUNPUXdsY2pQbmJqaFBuei1Mb0Z0NjR2MnU3MjFnSk91WEk3Z0RwN3FFem4zWVFFTHRNV00wNGo4d2J1TklYWDc1ZG1Pdkhic1JjelBLWVVWSWRwSERrQkVsZVFuc0tTdi1hRm9KaFpPRFNrWkhXZUpqZXExUmhRYUpzYlRXQWVOUHo2U2dOQ1RVTlRqUVljbDlycXB0b3NTRHA4NTR6VXByYVpkZw?oc=5"
+            "title": "Stock market news today: Wall Street flat as US-Iran tensions rise - BusinessLine",
+            "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcVg1MWZwc24xSld6U2ZoMzVaYjB0MGZRcXk0bTBIRFFSaHl5T0YzWGpTTHlKcDhVX0hHdXJFVmZGRGxuNzYwVEJiRWxRaUZoYnN2cl80TERUUFVlZjM2c3c1WUVPUG55Y2ZidjQ1eFhCaFRXUjYzbW1sZDZkWThneXdqWXU2cTJiVXhpa0U3VlphdE1jYW9Rel85anVDVkd5SXhabDJvcEtHdGtaaFFqZF9NTEQtSWVaczhMMkdFUnpKNWwxZjRhZTBn0gHQAUFVX3lxTFBqQmN2VlFPV2lWSnhNRC1rY3pPM0RDd0hJUzFIZXlNRGdwQVBLeFpBVXotVTdIY3pwck1wOGQwNEU5WHpDQjhvSWQ3Qmx1RUxxbjBiVmlSTWRrUW9tc205cDFDeDh2ZGgyRk1BT0d5ZjJ3ZDZUbTRuaVZNakw0SHNpd1lrMVZmTjh6YVdiUkJ0bHZPUmdwcm9GcFAxcVVtaWJoZGg3RVFBaHN6Y1FRcGhxUzR4ZEhFSW5qc3pFLURFTkF5Vmc3MzRPQ2ZSMjNOdDE?oc=5"
         },
         {
-            "title": "Wall Street Today: DJIA, S&P 500, Nasdaq Comp Fall on U.S.-Iran and MRVL, AMZN, GOOGL Losses - Moomoo",
-            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQ0pleVR3Z25IMjNZQUdOc2ZRWDE0TkUtRlN6Ni1VaGFab3Rtd1RkdndPOTNuWGtIR3NJV2tBTVhrSlJVSEV3Zk5VanhUeEZnQVdwY19WbG5GV0ExcEpvMjlPLVZXUk1EbXB5NU9TRnp0Rzg4ZHhLOGp6UFRYQ0kxdHpmOTNPaXRwcmRrUWNWVUc1am12aVNsZ2tQZzhyNUMtdXc?oc=5"
+            "title": "Wall Street Today: DJIA, S&P 500, Nasdaq Comp Fall as U.S.-Iran Boosts Oil, But Sinks MU, SNDK, NVDA - moomoo.com",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd0hySWhvNnQ5a2VabzluR2RTYzNkMnYtUEtrQ0VNNjVzTFo4b3JfRDJJb2l3TUppdXZ1Z0pzdDhFYkV2YUplWXhkZko1OGRYZGRZeFhZeVlTa3Bsd0pRX0ZYWHdnRVAxMTQ0QmE3cVhfVlNrMFlZandLOGlKbm9Gb2NudTZ5Z2NBTDU4bHlCTG9KNVluU3dRVnFUNWIyZVIzVVFn?oc=5"
         }
     ],
     "sotd_win_rate": {
-        "rate": 60.0,
+        "rate": 66.7,
         "total": 30
     }
 }

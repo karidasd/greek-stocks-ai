@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-07-21",
-        "ticker": "FET-USD",
-        "price_at_pick": 0.157
-    },
-    {
         "date": "2026-07-22",
         "ticker": "FET-USD",
         "price_at_pick": 0.155
@@ -148,5 +143,10 @@
         "date": "2026-09-01",
         "ticker": "NEAR-USD",
         "price_at_pick": 1.897
+    },
+    {
+        "date": "2026-09-02",
+        "ticker": "SOL-USD",
+        "price_at_pick": 99.89
     }
 ]
