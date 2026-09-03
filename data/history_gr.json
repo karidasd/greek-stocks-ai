@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-07-22",
-        "ticker": "ETE.AT",
-        "price_at_pick": 15.45
-    },
-    {
         "date": "2026-07-23",
         "ticker": "TITC.AT",
         "price_at_pick": 50.2
@@ -148,5 +143,10 @@
         "date": "2026-09-02",
         "ticker": "ALPHA.AT",
         "price_at_pick": 4.624
+    },
+    {
+        "date": "2026-09-03",
+        "ticker": "CENER.AT",
+        "price_at_pick": 23.08
     }
 ]
