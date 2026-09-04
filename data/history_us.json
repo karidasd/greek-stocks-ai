@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-07-23",
-        "ticker": "GOOG",
-        "price_at_pick": 319.2
-    },
-    {
         "date": "2026-07-24",
         "ticker": "GOOG",
         "price_at_pick": 319.28
@@ -148,5 +143,10 @@
         "date": "2026-09-03",
         "ticker": "AVGO",
         "price_at_pick": 357.16
+    },
+    {
+        "date": "2026-09-04",
+        "ticker": "AVGO",
+        "price_at_pick": 357.82
     }
 ]
