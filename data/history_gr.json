@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-07-24",
-        "ticker": "GEKTERNA.AT",
-        "price_at_pick": 42.78
-    },
-    {
         "date": "2026-07-27",
         "ticker": "VIO.AT",
         "price_at_pick": 17.6
@@ -148,5 +143,10 @@
         "date": "2026-09-04",
         "ticker": "VIO.AT",
         "price_at_pick": 17.38
+    },
+    {
+        "date": "2026-09-07",
+        "ticker": "VIO.AT",
+        "price_at_pick": 17.06
     }
 ]
