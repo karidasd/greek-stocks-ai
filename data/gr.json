@@ -1,300 +1,300 @@
 {
-    "date": "2026-09-09 20:00",
+    "date": "2026-09-10 20:01",
     "market_name": "Greek Stocks",
     "stocks": [
         {
             "ticker": "PPC.AT",
             "name": "ΔΕΗ",
-            "price": 24.66,
-            "change_pct": 2.75,
-            "rsi": 78.9,
+            "price": 24.86,
+            "change_pct": 0.81,
+            "rsi": 84.2,
             "tech_tip": "SELL",
             "sentiment": "Neutral",
             "sentiment_score": 0.0,
             "sparkline": [
-                23.979999542236328,
                 23.600000381469727,
                 23.799999237060547,
                 24.200000762939453,
                 24.139999389648438,
                 24.0,
-                24.65999984741211
+                24.65999984741211,
+                24.860000610351562
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 19.12,
-            "dividend_yield": 250.0,
+            "pe_ratio": 19.27,
+            "dividend_yield": 243.0,
             "upcoming_event": null
         },
         {
             "ticker": "HTO.AT",
             "name": "ΟΤΕ",
-            "price": 20.12,
-            "change_pct": 2.13,
-            "rsi": 59.7,
+            "price": 19.74,
+            "change_pct": -1.89,
+            "rsi": 44.9,
             "tech_tip": "HOLD",
             "sentiment": "Neutral",
             "sentiment_score": 0.0,
             "sparkline": [
-                19.799999237060547,
                 19.899999618530273,
                 19.649999618530273,
                 19.799999237060547,
                 19.81999969482422,
                 19.700000762939453,
-                20.1200008392334
+                20.1200008392334,
+                19.739999771118164
             ],
-            "volume_breakout": true,
+            "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 11.18,
-            "dividend_yield": 458.0,
+            "pe_ratio": 10.97,
+            "dividend_yield": 448.0,
             "upcoming_event": null
         },
         {
             "ticker": "ETE.AT",
             "name": "Εθνική Τράπεζα",
-            "price": 17.285,
-            "change_pct": -1.79,
-            "rsi": 69.1,
+            "price": 17.34,
+            "change_pct": 0.32,
+            "rsi": 73.6,
             "tech_tip": "SELL",
             "sentiment": "Neutral",
             "sentiment_score": 0.0,
             "sparkline": [
-                16.8799991607666,
                 16.834999084472656,
                 16.969999313354492,
                 17.375,
                 17.549999237060547,
                 17.600000381469727,
-                17.28499984741211
+                17.28499984741211,
+                17.34000015258789
             ],
             "volume_breakout": true,
             "pattern": "Bullish Trend",
-            "pe_ratio": 13.94,
-            "dividend_yield": 293.0,
+            "pe_ratio": 13.98,
+            "dividend_yield": 298.0,
             "upcoming_event": null
         },
         {
             "ticker": "EUROB.AT",
             "name": "Eurobank",
-            "price": 4.675,
-            "change_pct": -1.2,
-            "rsi": 68.9,
-            "tech_tip": "SELL",
+            "price": 4.65,
+            "change_pct": -0.53,
+            "rsi": 64.6,
+            "tech_tip": "HOLD",
             "sentiment": "Neutral",
             "sentiment_score": 0.0,
             "sparkline": [
-                4.585999965667725,
                 4.605000019073486,
                 4.579999923706055,
                 4.666999816894531,
                 4.7230000495910645,
                 4.73199987411499,
-                4.675000190734863
+                4.675000190734863,
+                4.650000095367432
             ],
             "volume_breakout": true,
             "pattern": "Bullish Trend",
-            "pe_ratio": 12.64,
-            "dividend_yield": 251.0,
+            "pe_ratio": 12.57,
+            "dividend_yield": 254.0,
             "upcoming_event": null
         },
         {
             "ticker": "ALPHA.AT",
             "name": "Alpha Bank",
-            "price": 4.704,
-            "change_pct": -0.42,
+            "price": 4.785,
+            "change_pct": 1.72,
             "rsi": 68.1,
             "tech_tip": "SELL",
             "sentiment": "Neutral",
             "sentiment_score": 0.0,
             "sparkline": [
-                4.546000003814697,
                 4.624000072479248,
                 4.75,
                 4.691999912261963,
                 4.732999801635742,
                 4.723999977111816,
-                4.703999996185303
+                4.703999996185303,
+                4.784999847412109
             ],
-            "volume_breakout": true,
+            "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 12.71,
-            "dividend_yield": 242.0,
+            "pe_ratio": 12.93,
+            "dividend_yield": 243.0,
             "upcoming_event": null
         },
         {
             "ticker": "TPEIR.AT",
             "name": "Τράπεζα Πειραιώς",
-            "price": 10.54,
-            "change_pct": -1.26,
-            "rsi": 68.4,
+            "price": 10.505,
+            "change_pct": -0.33,
+            "rsi": 65.9,
             "tech_tip": "SELL",
             "sentiment": "Neutral",
             "sentiment_score": 0.0,
             "sparkline": [
-                10.279999732971191,
                 10.145000457763672,
                 10.25,
                 10.449999809265137,
                 10.600000381469727,
                 10.675000190734863,
-                10.539999961853027
+                10.539999961853027,
+                10.505000114440918
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 11.71,
-            "dividend_yield": 375.0,
+            "pe_ratio": 11.67,
+            "dividend_yield": 380.0,
             "upcoming_event": null
         },
         {
             "ticker": "MOH.AT",
             "name": "Motor Oil",
-            "price": 67.2,
-            "change_pct": 3.38,
-            "rsi": 78.5,
+            "price": 64.8,
+            "change_pct": -3.57,
+            "rsi": 67.4,
             "tech_tip": "SELL",
-            "sentiment": "Neutral",
-            "sentiment_score": 0.0,
+            "sentiment": "Bearish",
+            "sentiment_score": -0.27,
             "sparkline": [
-                60.150001525878906,
                 62.04999923706055,
                 61.0,
                 62.79999923706055,
                 63.150001525878906,
                 65.0,
-                67.19999694824219
+                67.19999694824219,
+                64.80000305175781
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 6.23,
+            "pe_ratio": 6.01,
             "dividend_yield": 275.0,
             "upcoming_event": null
         },
         {
             "ticker": "ELPE.AT",
             "name": "HelleniQ Energy",
-            "price": 17.73,
-            "change_pct": 6.29,
-            "rsi": 82.1,
+            "price": 17.8,
+            "change_pct": 0.39,
+            "rsi": 81.7,
             "tech_tip": "SELL",
             "sentiment": "Neutral",
             "sentiment_score": 0.0,
             "sparkline": [
-                15.510000228881836,
                 15.520000457763672,
                 15.84000015258789,
                 15.600000381469727,
                 15.920000076293945,
                 16.68000030517578,
-                17.729999542236328
+                17.729999542236328,
+                17.799999237060547
             ],
             "volume_breakout": true,
             "pattern": "Bullish Trend",
-            "pe_ratio": 5.17,
-            "dividend_yield": 360.0,
+            "pe_ratio": 5.19,
+            "dividend_yield": 339.0,
             "upcoming_event": null
         },
         {
             "ticker": "GEKTERNA.AT",
             "name": "ΓΕΚ ΤΕΡΝΑ",
-            "price": 44.32,
-            "change_pct": 0.27,
-            "rsi": 54.6,
+            "price": 45.56,
+            "change_pct": 2.8,
+            "rsi": 54.9,
             "tech_tip": "HOLD",
             "sentiment": "Neutral",
             "sentiment_score": 0.0,
             "sparkline": [
-                46.63999938964844,
                 45.41999816894531,
                 44.34000015258789,
                 44.63999938964844,
                 44.52000045776367,
                 44.20000076293945,
-                44.31999969482422
+                44.31999969482422,
+                45.560001373291016
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 31.88,
-            "dividend_yield": 93.0,
+            "pe_ratio": 32.78,
+            "dividend_yield": 92.0,
             "upcoming_event": null
         },
         {
             "ticker": "TITC.AT",
             "name": "ΤΙΤΑΝ",
-            "price": 52.45,
-            "change_pct": -0.47,
-            "rsi": 59.5,
+            "price": 51.8,
+            "change_pct": -1.24,
+            "rsi": 56.0,
             "tech_tip": "HOLD",
             "sentiment": "Neutral",
             "sentiment_score": 0.0,
             "sparkline": [
-                54.54999923706055,
                 52.900001525878906,
                 52.75,
                 53.95000076293945,
                 54.5,
                 52.70000076293945,
-                52.45000076293945
+                52.45000076293945,
+                51.79999923706055
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 12.25,
-            "dividend_yield": 209.0,
+            "pe_ratio": 12.1,
+            "dividend_yield": 210.0,
             "upcoming_event": null
         },
         {
             "ticker": "CENER.AT",
             "name": "Cenergy",
-            "price": 23.84,
-            "change_pct": 0.76,
-            "rsi": 65.9,
-            "tech_tip": "SELL",
+            "price": 23.16,
+            "change_pct": -2.85,
+            "rsi": 58.2,
+            "tech_tip": "HOLD",
             "sentiment": "Neutral",
             "sentiment_score": 0.0,
             "sparkline": [
-                23.0,
                 22.540000915527344,
                 22.260000228881836,
                 23.079999923706055,
                 23.34000015258789,
                 23.65999984741211,
-                23.84000015258789
+                23.84000015258789,
+                23.15999984741211
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 21.48,
-            "dividend_yield": 110.0,
+            "pe_ratio": 20.86,
+            "dividend_yield": 109.0,
             "upcoming_event": null
         },
         {
             "ticker": "VIO.AT",
             "name": "Viohalco",
-            "price": 17.08,
-            "change_pct": -1.73,
-            "rsi": 45.8,
+            "price": 16.76,
+            "change_pct": -1.87,
+            "rsi": 44.8,
             "tech_tip": "HOLD",
-            "sentiment": "Neutral",
-            "sentiment_score": 0.0,
+            "sentiment": "Bearish",
+            "sentiment_score": -0.4,
             "sparkline": [
-                17.200000762939453,
                 16.600000381469727,
                 16.459999084472656,
                 17.479999542236328,
                 17.3799991607666,
                 17.3799991607666,
-                17.079999923706055
+                17.079999923706055,
+                16.760000228881836
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 13.89,
-            "dividend_yield": 155.0,
+            "pe_ratio": 13.63,
+            "dividend_yield": 158.0,
             "upcoming_event": null
         }
     ],
-    "sotd": "VIO.AT",
+    "sotd": "HTO.AT",
     "fear_greed": {
-        "score": 58,
-        "status": "Greed"
+        "score": 55,
+        "status": "Neutral"
     },
     "market_news": [
         {
@@ -302,24 +302,24 @@
             "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPeXR4STVLczd0bjZOM3lvS2ZYakJSUVQ4bV9DNFhxQTVacV91RUZOMnNjY3R5MEdmMXdtWExPV3NiUGZQQ3pIeU1SbkFlcXRFaEJvcVZYWG12bDBmR0NrM1FWbmJVemQ4eldpWlQzNmQzeHpROGZCNlUwODN2M0lFRDgwQUt3eXdRVUM1c0M5Q2o5NXlUMjdMbWpBeEs4TXJoa0JPY1l0Rm5wMk4zeWRFdEJSaVl2THNmak9XNjhfX1dmNFZpTFpmbUdGb01zakZuLWk3YmpnZjNUQkJzbzFuYi1SNFpDcE1YOWZfcUg0MDNjMFZvVjVR0gH8AUFVX3lxTE45T1lrcUZqWFRiZGlBV1FPSGtGT1B3ZHhFTlNHbG5SRk1jX2pwdV9ZNzJSZ3pVRkw5OXhZZklFZWEzdEFVMU9pYUxBVVJPNlM3bXFNRUZCRjk0bkRqUXJ4cTZrOUtqZVBLN2hLanNVQlVBZ052ZVFfUDIycXVqV3JORzVMUkgzOTZsSFQ5eUhLUV9yQzlUb3NCUzREaExwVTVFTThWLXZ3SXEzVzM0RXdnYmZzSDd6dGNLRWYxdWxwSnlVVzlDdXFUYVRFNEhWNTY1ZEViZkkxX1RFYmF6ZnUwNzJUMXVOOUxPS1hqMHdscG9WUVl3V3Z4N0hDeg?oc=5"
         },
         {
-            "title": "Το Χρηματιστήριο Αθηνών κερδίζει το ενδιαφέρον των Αμερικανών επενδυτών - businessdaily.gr",
+            "title": "Το Χρηματιστήριο Αθηνών κερδίζει το ενδιαφέρον των Αμερικανών επενδυτών - BusinessDaily.gr",
             "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMnZ3RkR3dThiRVA2ZGdJZUZvd0tKSFRjR0kweUo0VXNqRGtJVmwyRXlsUjd6bVBUS3BMU2R0YmtzV2VDa0JhZG43MjdzUWJtY0I3aGtXS3FzRDhxajRwR1RkWE5WNU01WXI4X0ktVWNlcWhwR0ZldjhING9xVjZFNGxjeGtmRG5kRHdVQmp4ekdmRmxIVmROc1k2dzFBVTM1VlRDcngzU1N4amZTYmtoWUZJRExLX00?oc=5"
-        },
-        {
-            "title": "Η Star Bulk στο Χρηματιστήριο Αθηνών: Είδηση στην Ελλάδα και στον κόσμο - HuffPost Greece",
-            "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PSnZ2U0l5N0ZrdFBDNXFuYWdjemJ5RWpTNkJIckdaWEsyNE45MUdoNTg3M0JWQWtVbDVqU3BkUUtzLUdRSTlLbHZiaG1IWklpYV9wcGdGNnkwOWRoaWZyVG9UbEphODU3SmVaNmFUb3MtUlJheFJGdzJB?oc=5"
         },
         {
             "title": "Χρηματιστήριο Αθηνών: Buy, sell ή hold στη μάχη των 2.700 μονάδων - Liberal.gr",
             "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObmRQVXBra0xIMEttbDl2bVJUQmpLQm5JcEdsdndvT2ZxUVNuSkhMeUNEUW9tZmlMZXJUTUwweE5Bb3hrbUhRbjFyOUs5Y3pJSW95SVNlVV9GZ0JBbkh6US1PelBQdFJOb1htaTFJTzFLei1jMVdMbFdLV3lQdzBLTDhJZURCbHo3Y1NJeFBlNjdtZXNseHpHRmFaaURCTmE0SjdUUHllMFBNcnA40gGyAUFVX3lxTE94bk8xd0l3cWg3eTFZOTdKcWZTcVROMW54Xzg5RGdoMmdCZWVkaUJsQ3lrS3lyVUd3QnRQeFA1RF8tLUpXU01LNG1lUEpVZXRKZnFvX1JncG9wbU53TjJpSUJBTGFrWE9xd3ROZmtRUE0zWmlkNnpRdEs0TWkxaE80OWxLZXF0TXhiTl9uMnZyaWhWQmdJWDdEbGdmZUJWQWdiRnhuLUVDLWROTVd6cEJjOUE?oc=5"
         },
         {
-            "title": "Χρηματιστήριο Αθηνών: Μικρά κέρδη στο άνοιγμα – Ποιες μετοχές ξεχωρίζουν - tanea.gr",
-            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQUdHbWNqSk9acENOM3d3QnQycnZubzA4QkYtbjZFY3h1amZSNkhkaWpVNF9NMlB0ekxoTWNTTVdHRVVMbmJWTFhQVFZnWXl0QmlBNXJGWmtzSGdOeWJvYUZXMGxDbk51SHBlUS0yQXctRmZ3SmNFR0lFb1lUWVlfZ1p2ekV3bGZBTUo1al9RaTVTRGlkNmVvNHFBQzBIV2o0Z3NaTl9adHhFdlk1andDZHVB0gG3AUFVX3lxTFBWYVZHR2RCWjZ5X3lWc1YzVHlKclNsNXdocHlPNnpNdERDQ0ZYNnpIWTJjc0QtXzdVUF96c3l2anlEay0wTEh5U05CUGtlYVpVamQzLVVlNDZIZVZTeVNHUHFzYjJIN3RqbzlzUXBIOW9QWEV6V2JhMENDdmF2QkJOVllOdkJpTDdEWU5vZVFGLUt2N2dNVUVJUVhHdUdwb0c0R1FDeW5wajVxdm8xdUpydGUxc1JHMA?oc=5"
+            "title": "Η Star Bulk στο Χρηματιστήριο Αθηνών: Είδηση στην Ελλάδα και στον κόσμο - HuffPost Greece",
+            "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PSnZ2U0l5N0ZrdFBDNXFuYWdjemJ5RWpTNkJIckdaWEsyNE45MUdoNTg3M0JWQWtVbDVqU3BkUUtzLUdRSTlLbHZiaG1IWklpYV9wcGdGNnkwOWRoaWZyVG9UbEphODU3SmVaNmFUb3MtUlJheFJGdzJB?oc=5"
+        },
+        {
+            "title": "Χρηματιστήριο Αθηνών: Εβδομαδιαία άνοδος 1,74%, κέρδη 26,37% από τις αρχές του έτους - iefimerida.gr",
+            "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNzM1WllyR0R1eng1SEI4dVNJODJkcDBNZmdmLUQ5UGtDTGY3RUF2TTdKWG9QelNjcF9EanFQTXRpTXNhNmRrbVNFU18zY3JYekF1VWZXNlVkRmxTdzNSd2FERmsxcWdaWEw2ZGFfUHhtMjlHcThhdGJqLTZnaVRKRmt3WnpOdUZaSHdNRmx2U3lnVnVFUnBoN1NIYVU2Q09XMWlPYVdPZzdLZklhODd2cVdPYnFoQdIBuwFBVV95cUxOcEt5b3A0NGE3MUFSOVJQMFk2YkhLQmNXVWxsU19FcjZKZk9OV2F3UkZOQlZRQjFsOUFIdHI1NzVxbjk0TzFfX2lZcFZfR0N5dTZMeFNnMDJPVEtZRDBZc0x0SHBjZFdTZXpDeWU0MllEdng3OHBnNGd2SmNvRkJkOHdNSW9udTBBdzBheUIzUjdqV1ltSExSWmhUTmdvdlFlRFd3WFdNTWxPck5SaXlUbld4dGI5QjNtN1d3?oc=5"
         }
     ],
     "sotd_win_rate": {
-        "rate": 63.3,
+        "rate": 46.7,
         "total": 30
     }
 }
