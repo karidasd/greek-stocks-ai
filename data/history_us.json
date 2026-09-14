@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-07-31",
-        "ticker": "TSLA",
-        "price_at_pick": 310.797
-    },
-    {
         "date": "2026-08-03",
         "ticker": "INTC",
         "price_at_pick": 90.53
@@ -148,5 +143,10 @@
         "date": "2026-09-11",
         "ticker": "GOOG",
         "price_at_pick": 335.45
+    },
+    {
+        "date": "2026-09-14",
+        "ticker": "SMCI",
+        "price_at_pick": 36.74
     }
 ]

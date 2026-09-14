@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-07-31",
-        "ticker": "NEAR-USD",
-        "price_at_pick": 1.701
-    },
-    {
         "date": "2026-08-03",
         "ticker": "NEAR-USD",
         "price_at_pick": 1.744
@@ -148,5 +143,10 @@
         "date": "2026-09-11",
         "ticker": "BTC-USD",
         "price_at_pick": 77287.3
+    },
+    {
+        "date": "2026-09-14",
+        "ticker": "SOL-USD",
+        "price_at_pick": 103.64
     }
 ]
