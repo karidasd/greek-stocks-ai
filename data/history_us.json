@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-08-04",
-        "ticker": "TSLA",
-        "price_at_pick": 329.28
-    },
-    {
         "date": "2026-08-05",
         "ticker": "AAPL",
         "price_at_pick": 308.84
@@ -148,5 +143,10 @@
         "date": "2026-09-15",
         "ticker": "SMCI",
         "price_at_pick": 35.64
+    },
+    {
+        "date": "2026-09-16",
+        "ticker": "AMZN",
+        "price_at_pick": 245.96
     }
 ]
