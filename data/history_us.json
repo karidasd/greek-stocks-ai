@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-08-05",
-        "ticker": "AAPL",
-        "price_at_pick": 308.84
-    },
-    {
         "date": "2026-08-07",
         "ticker": "AAPL",
         "price_at_pick": 311.91
@@ -148,5 +143,10 @@
         "date": "2026-09-16",
         "ticker": "AMZN",
         "price_at_pick": 245.96
+    },
+    {
+        "date": "2026-09-17",
+        "ticker": "MSFT",
+        "price_at_pick": 497.75
     }
 ]
