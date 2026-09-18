@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-08-07",
-        "ticker": "PPC.AT",
-        "price_at_pick": 21.94
-    },
-    {
         "date": "2026-08-10",
         "ticker": "ELPE.AT",
         "price_at_pick": 13.0
@@ -148,5 +143,10 @@
         "date": "2026-09-17",
         "ticker": "VIO.AT",
         "price_at_pick": 14.78
+    },
+    {
+        "date": "2026-09-18",
+        "ticker": "TITC.AT",
+        "price_at_pick": 48.3
     }
 ]
