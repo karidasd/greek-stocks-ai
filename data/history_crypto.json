@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-08-12",
-        "ticker": "XRP-USD",
-        "price_at_pick": 1.01
-    },
-    {
         "date": "2026-08-13",
         "ticker": "FET-USD",
         "price_at_pick": 0.134
@@ -148,5 +143,10 @@
         "date": "2026-09-22",
         "ticker": "LINK-USD",
         "price_at_pick": 12.994
+    },
+    {
+        "date": "2026-09-23",
+        "ticker": "LTC-USD",
+        "price_at_pick": 61.122
     }
 ]

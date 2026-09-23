@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-08-12",
-        "ticker": "META",
-        "price_at_pick": 582.08
-    },
-    {
         "date": "2026-08-13",
         "ticker": "AAPL",
         "price_at_pick": 303.46
@@ -148,5 +143,10 @@
         "date": "2026-09-22",
         "ticker": "SMCI",
         "price_at_pick": 41.54
+    },
+    {
+        "date": "2026-09-23",
+        "ticker": "NVDA",
+        "price_at_pick": 225.51
     }
 ]
