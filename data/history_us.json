@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-08-17",
-        "ticker": "AAPL",
-        "price_at_pick": 304.3
-    },
-    {
         "date": "2026-08-18",
         "ticker": "QCOM",
         "price_at_pick": 159.235
@@ -148,5 +143,10 @@
         "date": "2026-09-25",
         "ticker": "SMCI",
         "price_at_pick": 43.26
+    },
+    {
+        "date": "2026-09-28",
+        "ticker": "SMCI",
+        "price_at_pick": 41.78
     }
 ]

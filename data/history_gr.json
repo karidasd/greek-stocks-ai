@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-08-17",
-        "ticker": "TITC.AT",
-        "price_at_pick": 51.5
-    },
-    {
         "date": "2026-08-18",
         "ticker": "TITC.AT",
         "price_at_pick": 50.8
@@ -148,5 +143,10 @@
         "date": "2026-09-25",
         "ticker": "TITC.AT",
         "price_at_pick": 48.7
+    },
+    {
+        "date": "2026-09-28",
+        "ticker": "TITC.AT",
+        "price_at_pick": NaN
     }
 ]
