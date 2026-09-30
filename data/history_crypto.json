@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-08-19",
-        "ticker": "FET-USD",
-        "price_at_pick": 0.125
-    },
-    {
         "date": "2026-08-20",
         "ticker": "FET-USD",
         "price_at_pick": 0.142
@@ -148,5 +143,10 @@
         "date": "2026-09-29",
         "ticker": "XRP-USD",
         "price_at_pick": 1.491
+    },
+    {
+        "date": "2026-09-30",
+        "ticker": "AVAX-USD",
+        "price_at_pick": 10.92
     }
 ]
