@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-08-20",
-        "ticker": "GOOG",
-        "price_at_pick": 338.255
-    },
-    {
         "date": "2026-08-21",
         "ticker": "GOOG",
         "price_at_pick": 341.74
@@ -148,5 +143,10 @@
         "date": "2026-09-30",
         "ticker": "NFLX",
         "price_at_pick": 69.58
+    },
+    {
+        "date": "2026-10-01",
+        "ticker": "SMCI",
+        "price_at_pick": 41.92
     }
 ]
