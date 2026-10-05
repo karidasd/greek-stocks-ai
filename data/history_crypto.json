@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-08-24",
-        "ticker": "NEAR-USD",
-        "price_at_pick": 1.97
-    },
-    {
         "date": "2026-08-25",
         "ticker": "FET-USD",
         "price_at_pick": 0.169
@@ -148,5 +143,10 @@
         "date": "2026-10-02",
         "ticker": "AVAX-USD",
         "price_at_pick": 10.592
+    },
+    {
+        "date": "2026-10-05",
+        "ticker": "DOGE-USD",
+        "price_at_pick": 0.096
     }
 ]

@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-08-24",
-        "ticker": "GOOG",
-        "price_at_pick": 345.23
-    },
-    {
         "date": "2026-08-25",
         "ticker": "ARM",
         "price_at_pick": 241.722
@@ -148,5 +143,10 @@
         "date": "2026-10-02",
         "ticker": "NFLX",
         "price_at_pick": 67.06
+    },
+    {
+        "date": "2026-10-05",
+        "ticker": "QCOM",
+        "price_at_pick": 180.79
     }
 ]
