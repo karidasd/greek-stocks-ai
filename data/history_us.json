@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-08-25",
-        "ticker": "ARM",
-        "price_at_pick": 241.722
-    },
-    {
         "date": "2026-08-26",
         "ticker": "ARM",
         "price_at_pick": 251.77
@@ -148,5 +143,10 @@
         "date": "2026-10-05",
         "ticker": "QCOM",
         "price_at_pick": 180.79
+    },
+    {
+        "date": "2026-10-06",
+        "ticker": "META",
+        "price_at_pick": 738.88
     }
 ]
