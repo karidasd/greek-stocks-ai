@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-08-28",
-        "ticker": "FET-USD",
-        "price_at_pick": 0.168
-    },
-    {
         "date": "2026-08-29",
         "ticker": "FET-USD",
         "price_at_pick": 0.15
@@ -148,5 +143,10 @@
         "date": "2026-10-07",
         "ticker": "ETH-USD",
         "price_at_pick": 2564.8
+    },
+    {
+        "date": "2026-10-08",
+        "ticker": "DOGE-USD",
+        "price_at_pick": 0.084
     }
 ]
