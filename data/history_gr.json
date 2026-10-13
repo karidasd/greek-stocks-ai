@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-09-01",
-        "ticker": "ALPHA.AT",
-        "price_at_pick": 4.546
-    },
-    {
         "date": "2026-09-02",
         "ticker": "ALPHA.AT",
         "price_at_pick": 4.624
@@ -146,6 +141,11 @@
     },
     {
         "date": "2026-10-12",
+        "ticker": "TITC.AT",
+        "price_at_pick": NaN
+    },
+    {
+        "date": "2026-10-13",
         "ticker": "TITC.AT",
         "price_at_pick": NaN
     }

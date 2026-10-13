@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-09-01",
-        "ticker": "ARM",
-        "price_at_pick": 234.82
-    },
-    {
         "date": "2026-09-02",
         "ticker": "ARM",
         "price_at_pick": 234.86
@@ -148,5 +143,10 @@
         "date": "2026-10-12",
         "ticker": "ARM",
         "price_at_pick": 255.24
+    },
+    {
+        "date": "2026-10-13",
+        "ticker": "INTC",
+        "price_at_pick": 102.81
     }
 ]
