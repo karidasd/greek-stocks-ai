@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-09-02",
-        "ticker": "ARM",
-        "price_at_pick": 234.86
-    },
-    {
         "date": "2026-09-03",
         "ticker": "AVGO",
         "price_at_pick": 357.16
@@ -148,5 +143,10 @@
         "date": "2026-10-13",
         "ticker": "INTC",
         "price_at_pick": 102.81
+    },
+    {
+        "date": "2026-10-14",
+        "ticker": "SMCI",
+        "price_at_pick": 35.78
     }
 ]
