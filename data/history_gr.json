@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-09-03",
-        "ticker": "CENER.AT",
-        "price_at_pick": 23.08
-    },
-    {
         "date": "2026-09-04",
         "ticker": "VIO.AT",
         "price_at_pick": 17.38
@@ -148,5 +143,10 @@
         "date": "2026-10-14",
         "ticker": "ALPHA.AT",
         "price_at_pick": 4.265
+    },
+    {
+        "date": "2026-10-15",
+        "ticker": "HTO.AT",
+        "price_at_pick": 19.14
     }
 ]
