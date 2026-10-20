@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-09-08",
-        "ticker": "SOL-USD",
-        "price_at_pick": 103.49
-    },
-    {
         "date": "2026-09-09",
         "ticker": "BNB-USD",
         "price_at_pick": 736.96
@@ -148,5 +143,10 @@
         "date": "2026-10-19",
         "ticker": "DOGE-USD",
         "price_at_pick": 0.079
+    },
+    {
+        "date": "2026-10-20",
+        "ticker": "LINK-USD",
+        "price_at_pick": 12.281
     }
 ]
