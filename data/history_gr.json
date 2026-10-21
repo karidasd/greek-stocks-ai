@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-09-09",
-        "ticker": "VIO.AT",
-        "price_at_pick": 17.08
-    },
-    {
         "date": "2026-09-10",
         "ticker": "HTO.AT",
         "price_at_pick": 19.74
@@ -148,5 +143,10 @@
         "date": "2026-10-20",
         "ticker": "VIO.AT",
         "price_at_pick": 15.52
+    },
+    {
+        "date": "2026-10-21",
+        "ticker": "VIO.AT",
+        "price_at_pick": 15.78
     }
 ]
