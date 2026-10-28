@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-09-16",
-        "ticker": "BTC-USD",
-        "price_at_pick": 76173.0
-    },
-    {
         "date": "2026-09-17",
         "ticker": "BTC-USD",
         "price_at_pick": 76574.5
@@ -148,5 +143,10 @@
         "date": "2026-10-27",
         "ticker": "LTC-USD",
         "price_at_pick": 56.574
+    },
+    {
+        "date": "2026-10-28",
+        "ticker": "AVAX-USD",
+        "price_at_pick": 9.049
     }
 ]

@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-09-16",
-        "ticker": "AMZN",
-        "price_at_pick": 245.96
-    },
-    {
         "date": "2026-09-17",
         "ticker": "MSFT",
         "price_at_pick": 497.75
@@ -148,5 +143,10 @@
         "date": "2026-10-27",
         "ticker": "SMCI",
         "price_at_pick": 35.09
+    },
+    {
+        "date": "2026-10-28",
+        "ticker": "SMCI",
+        "price_at_pick": 35.81
     }
 ]

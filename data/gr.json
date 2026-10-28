@@ -1,5 +1,5 @@
 {
-    "date": "2026-10-27 21:29",
+    "date": "2026-10-28 21:54",
     "market_name": "Greek Stocks",
     "stocks": [
         {
@@ -23,7 +23,7 @@
             "volume_breakout": false,
             "pattern": "Bullish Trend",
             "pe_ratio": 17.52,
-            "dividend_yield": 266.0,
+            "dividend_yield": 265.0,
             "upcoming_event": null
         },
         {
@@ -47,7 +47,7 @@
             "volume_breakout": false,
             "pattern": "Bullish Trend",
             "pe_ratio": 10.57,
-            "dividend_yield": 468.0,
+            "dividend_yield": 474.0,
             "upcoming_event": null
         },
         {
@@ -71,7 +71,7 @@
             "volume_breakout": false,
             "pattern": "Bullish Trend",
             "pe_ratio": 12.71,
-            "dividend_yield": 334.0,
+            "dividend_yield": 329.0,
             "upcoming_event": null
         },
         {
@@ -95,7 +95,7 @@
             "volume_breakout": false,
             "pattern": "Bullish Trend",
             "pe_ratio": 11.84,
-            "dividend_yield": 275.0,
+            "dividend_yield": 271.0,
             "upcoming_event": null
         },
         {
@@ -119,7 +119,7 @@
             "volume_breakout": false,
             "pattern": "Bullish Trend",
             "pe_ratio": 12.09,
-            "dividend_yield": 267.0,
+            "dividend_yield": 262.0,
             "upcoming_event": null
         },
         {
@@ -142,8 +142,8 @@
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 11.26,
-            "dividend_yield": 425.0,
+            "pe_ratio": 11.66,
+            "dividend_yield": 409.0,
             "upcoming_event": null
         },
         {
@@ -167,7 +167,7 @@
             "volume_breakout": false,
             "pattern": "Bullish Trend",
             "pe_ratio": 6.43,
-            "dividend_yield": 262.0,
+            "dividend_yield": 258.0,
             "upcoming_event": null
         },
         {
@@ -190,8 +190,8 @@
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 5.59,
-            "dividend_yield": 325.0,
+            "pe_ratio": 5.65,
+            "dividend_yield": 321.0,
             "upcoming_event": null
         },
         {
@@ -214,8 +214,8 @@
             ],
             "volume_breakout": false,
             "pattern": "Bullish Trend",
-            "pe_ratio": 26.45,
-            "dividend_yield": 103.0,
+            "pe_ratio": 27.16,
+            "dividend_yield": 100.0,
             "upcoming_event": null
         },
         {
@@ -239,7 +239,7 @@
             "volume_breakout": false,
             "pattern": "Bearish Trend",
             "pe_ratio": 11.14,
-            "dividend_yield": 232.0,
+            "dividend_yield": 231.0,
             "upcoming_event": null
         },
         {
@@ -263,7 +263,7 @@
             "volume_breakout": false,
             "pattern": "Bullish Trend",
             "pe_ratio": 19.86,
-            "dividend_yield": 122.0,
+            "dividend_yield": 118.0,
             "upcoming_event": null
         },
         {
@@ -287,7 +287,7 @@
             "volume_breakout": false,
             "pattern": "Bullish Trend",
             "pe_ratio": 12.6,
-            "dividend_yield": 177.0,
+            "dividend_yield": 174.0,
             "upcoming_event": null
         }
     ],
@@ -298,8 +298,8 @@
     },
     "market_news": [
         {
-            "title": "Χρηματιστήριο Αθηνών: Βαθαίνουν οι απώλειες – Πτώση σχεδόν 2% για τον Γενικό Δείκτη - ΤΑ ΝΕΑ",
-            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPREE0Z0hOVUd6WTA1cDhacHZnTGtLODdWQzVzV0ZVenljM3BCdzFCbXdiLWgwUDdlS0RGQ25QeG1XMU5GdjZyQ1IxVC1NcHlDd3JFUTFUV293UmVHcGZpSTZxc2ZFdTNoVnN5M25NWndpd0duOTRXY2RuUFNmdXU5QldqdVBrMVRMRTJRSXNwSGEzMG5vZW5qX0I2ZlpkSkxFdG1vTERGQ0hSMFh5dW5jaUtWbkQ3TVVaQXgtRV82dw?oc=5"
+            "title": "Χρηματιστήριο Αθηνών: Πτώση 2,85% και απώλειες στις τραπεζικές μετοχές - ΤΑ ΝΕΑ",
+            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNN1JyRmhwc2pYb2tMZ2hZSG1sN25PNmV0U2FQd19McTdTUlVkbFNMNmdrbmJTT05xRlVwM2p3ZThJallRZHhzbXNZdVUyc2kxZlhSYTgyY2QzaFhSRDFTYkc5RUtUX2RDYndSNGRZZ1BNb1NXcGZNZC1oRHFGY1VrN1E3WHBacEhMYmVBVzJRZU5PN0NudXVqVVEtRDNhNlVEX1AtWlFrYUxHU3FtbFE?oc=5"
         },
         {
             "title": "Χρηματιστήριο Αθηνών μετά το σοκ των 7 δισ. ευρώ - SBC TV",
@@ -310,12 +310,12 @@
             "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObEtTQUZ3NWFJdlJzOVNBZjBRa2VtMmJmeFF4ZnV3VXFIRWhRTXB1QlNTQ2ktUmNVb3FlakNqLU42OEJXQU5HT2kybjdBRnB2dVlRZ1F0dkIxYWVGYVhEWm5RZDFySEx5N1VJTXg3WEpiLUxSd3NuYjNPY25Sa0pHSHB0ZU5zbnJudmR4NDZLWlRQMGNPNmlremJUNzU2aFc0RTlla21aNjZBQzd0ZVQxUHQ2V2N4a00?oc=5"
         },
         {
-            "title": "Η Ελλάδα επιστρέφει στις ανεπτυγμένες αγορές, ιστορική αναβάθμιση για το Χρηματιστήριο Αθηνών μετά από 13 χρόνια - ProtoThema",
-            "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPeXR4STVLczd0bjZOM3lvS2ZYakJSUVQ4bV9DNFhxQTVacV91RUZOMnNjY3R5MEdmMXdtWExPV3NiUGZQQ3pIeU1SbkFlcXRFaEJvcVZYWG12bDBmR0NrM1FWbmJVemQ4eldpWlQzNmQzeHpROGZCNlUwODN2M0lFRDgwQUt3eXdRVUM1c0M5Q2o5NXlUMjdMbWpBeEs4TXJoa0JPY1l0Rm5wMk4zeWRFdEJSaVl2THNmak9XNjhfX1dmNFZpTFpmbUdGb01zakZuLWk3YmpnZjNUQkJzbzFuYi1SNFpDcE1YOWZfcUg0MDNjMFZvVjVR0gH8AUFVX3lxTE45T1lrcUZqWFRiZGlBV1FPSGtGT1B3ZHhFTlNHbG5SRk1jX2pwdV9ZNzJSZ3pVRkw5OXhZZklFZWEzdEFVMU9pYUxBVVJPNlM3bXFNRUZCRjk0bkRqUXJ4cTZrOUtqZVBLN2hLanNVQlVBZ052ZVFfUDIycXVqV3JORzVMUkgzOTZsSFQ5eUhLUV9yQzlUb3NCUzREaExwVTVFTThWLXZ3SXEzVzM0RXdnYmZzSDd6dGNLRWYxdWxwSnlVVzlDdXFUYVRFNEhWNTY1ZEViZkkxX1RFYmF6ZnUwNzJUMXVOOUxPS1hqMHdscG9WUVl3V3Z4N0hDeg?oc=5"
+            "title": "Τράπεζα Κύπρου: Η Ελλάδα αποτελεί τη σημαντικότερη αγορά εκτός Κύπρου - Στρατηγικά οφέλη της παρουσίας στο Χρηματιστήριο Αθηνών - Μακεδονικό Πρακτορείο Ειδήσεων",
+            "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQN04xaVZnbUM1UVVkMFVlSXVMWFlsS3hlc2xKUlRXcmhEX0R0MU5KYXhlaFNVN3RGbVlIZWxkd01tR3h0cFE1ZFBtd1ZEdnNhVFZkWm9rLWN2VFpIVXFFVnFXSFN0Nm1rZWtZdzFLNUJ1YlZ1VGxtWVJ3U0J1ekpvUUNldTdmV3dXSkZULTFxc1V1bUhDdUpFcUR2RS13SmZBUmVMVXRhRWZaMEpmZTRvbDFsdE52N0lBeXVlNFQ5MWtIQnpGaWhjX1B6cHc5RTl4UnB5dGhFMlhMamNPazh6ejlyNmVGWEc5dzF6bmgzM0R0ZmpmYjh3MWVSWU1rNnhkWWw1cG9R?oc=5"
         },
         {
-            "title": "Χρηματιστήριο Αθηνών: Γιατί οι μεγαλύτεροι ξένοι οίκοι συνεχίζουν να ποντάρουν στην Ελλάδα - Fortunegreece.com",
-            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY2NWRmxoWjQ2dEdtd3FBMl9wRS1vMzFEQ193ellHaldMRUQ2ZFVXZHBfNEgzVENNeDl5dm0xSXJCSlJqYXNEVm9CMTd4NDZFUlFhVzVBZkhIZFc1V0dIdW55TVhETlJrSUpXbDc3bFBQeVlMbU1LSUNPVXB1QVFNcmlINXNCeDMybGpzRGRTTjRoNVZCaGRmWk1ydEYxSmFuV0xLQ0hpUkc2dG04SjAzc0VmT0VUV1loNzRNak85VUZIZ1J1MElaZg?oc=5"
+            "title": "Χρηματιστήριο Αθηνών: Πρωταγωνιστής του διεθνούς «bull market» με κέρδη 217% - Fortunegreece.com",
+            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaE5KSEhKRENOaVpUZXFOU1luSXU4M2JYdkpOVnduOVhqVkloWFdsYUdBZFFtNC1sY1FXeG4tU2VNSFZqaGR5cVRpdFRRUnB2aXNWY0xLVnhwcmU0Vm9ybXc1OUFyR2ZKVGpBUU9kMDZnVnBJOFR1V3NJNDlKNXJYY1lEZlh1T2tkSGp1RWtIRTdnWFVDUnZoaU5Cd0JFOC1ZUjBiNVJZY2NDazY5T3JVZkNJOA?oc=5"
         }
     ],
     "sotd_win_rate": {
