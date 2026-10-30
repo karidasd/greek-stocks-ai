@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-09-18",
-        "ticker": "TITC.AT",
-        "price_at_pick": 48.3
-    },
-    {
         "date": "2026-09-21",
         "ticker": "TITC.AT",
         "price_at_pick": NaN
@@ -148,5 +143,10 @@
         "date": "2026-10-29",
         "ticker": "VIO.AT",
         "price_at_pick": NaN
+    },
+    {
+        "date": "2026-10-30",
+        "ticker": "VIO.AT",
+        "price_at_pick": 15.34
     }
 ]
