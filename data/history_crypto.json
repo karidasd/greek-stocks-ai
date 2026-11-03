@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-09-21",
-        "ticker": "LINK-USD",
-        "price_at_pick": 13.074
-    },
-    {
         "date": "2026-09-22",
         "ticker": "LINK-USD",
         "price_at_pick": 12.994
@@ -148,5 +143,10 @@
         "date": "2026-10-30",
         "ticker": "DOT-USD",
         "price_at_pick": 0.973
+    },
+    {
+        "date": "2026-11-03",
+        "ticker": "SOL-USD",
+        "price_at_pick": 91.84
     }
 ]
