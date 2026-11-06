@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-09-24",
-        "ticker": "NFLX",
-        "price_at_pick": 71.72
-    },
-    {
         "date": "2026-09-25",
         "ticker": "SMCI",
         "price_at_pick": 43.26
@@ -148,5 +143,10 @@
         "date": "2026-11-05",
         "ticker": "SMCI",
         "price_at_pick": 27.08
+    },
+    {
+        "date": "2026-11-06",
+        "ticker": "SMCI",
+        "price_at_pick": 28.76
     }
 ]
