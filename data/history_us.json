@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-09-28",
-        "ticker": "SMCI",
-        "price_at_pick": 41.78
-    },
-    {
         "date": "2026-09-29",
         "ticker": "SMCI",
         "price_at_pick": 41.02
@@ -148,5 +143,10 @@
         "date": "2026-11-10",
         "ticker": "GOOG",
         "price_at_pick": 286.01
+    },
+    {
+        "date": "2026-11-11",
+        "ticker": "SMCI",
+        "price_at_pick": 30.43
     }
 ]

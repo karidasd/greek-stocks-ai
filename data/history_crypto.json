@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-09-28",
-        "ticker": "XRP-USD",
-        "price_at_pick": 1.492
-    },
-    {
         "date": "2026-09-29",
         "ticker": "XRP-USD",
         "price_at_pick": 1.491
@@ -148,5 +143,10 @@
         "date": "2026-11-10",
         "ticker": "SOL-USD",
         "price_at_pick": 86.27
+    },
+    {
+        "date": "2026-11-11",
+        "ticker": "NEAR-USD",
+        "price_at_pick": 3.558
     }
 ]
