@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-10-02",
-        "ticker": "NFLX",
-        "price_at_pick": 67.06
-    },
-    {
         "date": "2026-10-05",
         "ticker": "QCOM",
         "price_at_pick": 180.79
@@ -148,5 +143,10 @@
         "date": "2026-11-17",
         "ticker": "NVDA",
         "price_at_pick": NaN
+    },
+    {
+        "date": "2026-11-18",
+        "ticker": "SMCI",
+        "price_at_pick": 24.37
     }
 ]
