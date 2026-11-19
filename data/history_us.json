@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-10-05",
-        "ticker": "QCOM",
-        "price_at_pick": 180.79
-    },
-    {
         "date": "2026-10-06",
         "ticker": "META",
         "price_at_pick": 738.88
@@ -148,5 +143,10 @@
         "date": "2026-11-18",
         "ticker": "SMCI",
         "price_at_pick": 24.37
+    },
+    {
+        "date": "2026-11-19",
+        "ticker": "SMCI",
+        "price_at_pick": 23.84
     }
 ]

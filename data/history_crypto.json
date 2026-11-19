@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-10-05",
-        "ticker": "DOGE-USD",
-        "price_at_pick": 0.096
-    },
-    {
         "date": "2026-10-06",
         "ticker": "ETH-USD",
         "price_at_pick": 2696.1
@@ -148,5 +143,10 @@
         "date": "2026-11-18",
         "ticker": "LTC-USD",
         "price_at_pick": 43.937
+    },
+    {
+        "date": "2026-11-19",
+        "ticker": "NEAR-USD",
+        "price_at_pick": 3.197
     }
 ]
