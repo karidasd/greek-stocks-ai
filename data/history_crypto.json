@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-10-06",
-        "ticker": "ETH-USD",
-        "price_at_pick": 2696.1
-    },
-    {
         "date": "2026-10-07",
         "ticker": "ETH-USD",
         "price_at_pick": 2564.8
@@ -148,5 +143,10 @@
         "date": "2026-11-19",
         "ticker": "NEAR-USD",
         "price_at_pick": 3.197
+    },
+    {
+        "date": "2026-11-20",
+        "ticker": "BNB-USD",
+        "price_at_pick": 539.15
     }
 ]
