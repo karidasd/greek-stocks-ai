@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-10-07",
-        "ticker": "QCOM",
-        "price_at_pick": 177.12
-    },
-    {
         "date": "2026-10-08",
         "ticker": "AVGO",
         "price_at_pick": 360.14
@@ -148,5 +143,10 @@
         "date": "2026-11-20",
         "ticker": "SMCI",
         "price_at_pick": 21.65
+    },
+    {
+        "date": "2026-11-24",
+        "ticker": "SMCI",
+        "price_at_pick": 24.53
     }
 ]
