@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-10-09",
-        "ticker": "QCOM",
-        "price_at_pick": 175.5
-    },
-    {
         "date": "2026-10-12",
         "ticker": "ARM",
         "price_at_pick": 255.24
@@ -147,6 +142,11 @@
     {
         "date": "2026-11-25",
         "ticker": "MSFT",
+        "price_at_pick": NaN
+    },
+    {
+        "date": "2026-11-26",
+        "ticker": "SMCI",
         "price_at_pick": NaN
     }
 ]
