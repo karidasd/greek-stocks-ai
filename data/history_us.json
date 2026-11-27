@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-10-12",
-        "ticker": "ARM",
-        "price_at_pick": 255.24
-    },
-    {
         "date": "2026-10-13",
         "ticker": "INTC",
         "price_at_pick": 102.81
@@ -148,5 +143,10 @@
         "date": "2026-11-26",
         "ticker": "SMCI",
         "price_at_pick": NaN
+    },
+    {
+        "date": "2026-11-27",
+        "ticker": "SMCI",
+        "price_at_pick": 23.31
     }
 ]
