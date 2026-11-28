@@ -1,10 +1,5 @@
 [
     {
-        "date": "2026-10-13",
-        "ticker": "INTC",
-        "price_at_pick": 102.81
-    },
-    {
         "date": "2026-10-14",
         "ticker": "SMCI",
         "price_at_pick": 35.78
@@ -148,5 +143,10 @@
         "date": "2026-11-27",
         "ticker": "SMCI",
         "price_at_pick": 23.31
+    },
+    {
+        "date": "2026-11-28",
+        "ticker": "SMCI",
+        "price_at_pick": 23.76
     }
 ]
